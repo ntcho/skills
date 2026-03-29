@@ -10,8 +10,8 @@
     "fetch:marketing": "curl -s $npm_package_config_marketing -o specs/mailchimp-marketing-api.swagger.json && swagger2openapi --patch -o specs/mailchimp-marketing-api.openapi.json specs/mailchimp-marketing-api.swagger.json",
     "fetch:transactional": "curl -s $npm_package_config_transactional -o specs/mailchimp-transactional-api.openapi.json",
     "gen": "bun fetch && bun gen:marketing && bun gen:transactional",
-    "gen:marketing": "openapi-to-skills specs/mailchimp-marketing-api.openapi.json --force -o . --case-strategy lowercase",
-    "gen:transactional": "openapi-to-skills specs/mailchimp-transactional-api.openapi.json --force -o . --case-strategy lowercase",
+    "gen:marketing": "openapi-to-skills specs/mailchimp-marketing-api.openapi.json --force -o . --case-strategy lowercase --name mailchimp-marketing-api",
+    "gen:transactional": "openapi-to-skills specs/mailchimp-transactional-api.openapi.json --force -o . --case-strategy lowercase --name mailchimp-transactional-api",
     "gen:license": "cp -f LICENSE mailchimp-marketing-api/LICENSE.txt && cp -f LICENSE mailchimp-transactional-api/LICENSE.txt"
   }
 }
