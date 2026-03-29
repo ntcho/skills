@@ -1,0 +1,43 @@
+{
+  "config": {
+    "api": "https://api.planningcenteronline.com/api/v2/open_api/2025-09-30",
+    "calendar": "https://api.planningcenteronline.com/calendar/v2/open_api/2022-07-07",
+    "checkins": "https://api.planningcenteronline.com/check-ins/v2/open_api/2025-05-28",
+    "current": "https://api.planningcenteronline.com/current/v2/open_api/2018-08-01",
+    "giving": "https://api.planningcenteronline.com/giving/v2/open_api/2019-10-18",
+    "groups": "https://api.planningcenteronline.com/groups/v2/open_api/2023-07-10",
+    "people": "https://api.planningcenteronline.com/people/v2/open_api/2025-11-10",
+    "publishing": "https://api.planningcenteronline.com/publishing/v2/open_api/2024-03-25",
+    "registrations": "https://api.planningcenteronline.com/registrations/v2/open_api/2025-05-01",
+    "services": "https://api.planningcenteronline.com/services/v2/open_api/2018-11-01",
+    "webhooks": "https://api.planningcenteronline.com/webhooks/v2/open_api/2022-10-20"
+  },
+  "scripts": {
+    "fetch": "bun fetch:license && bun fetch:api && bun fetch:calendar && bun fetch:check-ins && bun fetch:current && bun fetch:giving && bun fetch:groups && bun fetch:people && bun fetch:publishing && bun fetch:registrations && bun fetch:services && bun fetch:webhooks",
+    "fetch:license": "echo 'This skill is licensed under the PCO API Terms of Use: https://www.planningcenter.com/terms' > LICENSE",
+    "fetch:api": "curl -s $npm_package_config_api -o specs/pco-api-api.openapi.json",
+    "fetch:calendar": "curl -s $npm_package_config_calendar -o specs/pco-api-calendar.openapi.json",
+    "fetch:check-ins": "curl -s $npm_package_config_checkins -o specs/pco-api-check-ins.openapi.json",
+    "fetch:current": "curl -s $npm_package_config_current -o specs/pco-api-current.openapi.json",
+    "fetch:giving": "curl -s $npm_package_config_giving -o specs/pco-api-giving.openapi.json",
+    "fetch:groups": "curl -s $npm_package_config_groups -o specs/pco-api-groups.openapi.json",
+    "fetch:people": "curl -s $npm_package_config_people -o specs/pco-api-people.openapi.json",
+    "fetch:publishing": "curl -s $npm_package_config_publishing -o specs/pco-api-publishing.openapi.json",
+    "fetch:registrations": "curl -s $npm_package_config_registrations -o specs/pco-api-registrations.openapi.json",
+    "fetch:services": "curl -s $npm_package_config_services -o specs/pco-api-services.openapi.json",
+    "fetch:webhooks": "curl -s $npm_package_config_webhooks -o specs/pco-api-webhooks.openapi.json",
+    "gen": "bun fetch && bun gen:api && bun gen:calendar && bun gen:check-ins && bun gen:current && bun gen:giving && bun gen:groups && bun gen:people && bun gen:publishing && (bun gen:registrations || true) && bun gen:services && bun gen:webhooks && bun gen:license",
+    "gen:api": "openapi-to-skills specs/pco-api-api.openapi.json --force -o . --case-strategy lowercase --name pco-api-api",
+    "gen:calendar": "openapi-to-skills specs/pco-api-calendar.openapi.json --force -o . --case-strategy lowercase --name pco-api-calendar",
+    "gen:check-ins": "openapi-to-skills specs/pco-api-check-ins.openapi.json --force -o . --case-strategy lowercase --name pco-api-check-ins",
+    "gen:current": "openapi-to-skills specs/pco-api-current.openapi.json --force -o . --case-strategy lowercase --name pco-api-current",
+    "gen:giving": "openapi-to-skills specs/pco-api-giving.openapi.json --force -o . --case-strategy lowercase --name pco-api-giving",
+    "gen:groups": "openapi-to-skills specs/pco-api-groups.openapi.json --force -o . --case-strategy lowercase --name pco-api-groups",
+    "gen:people": "openapi-to-skills specs/pco-api-people.openapi.json --force -o . --case-strategy lowercase --name pco-api-people",
+    "gen:publishing": "openapi-to-skills specs/pco-api-publishing.openapi.json --force -o . --case-strategy lowercase --name pco-api-publishing",
+    "gen:registrations": "openapi-to-skills specs/pco-api-registrations.openapi.json --force -o . --case-strategy lowercase --name pco-api-registrations",
+    "gen:services": "openapi-to-skills specs/pco-api-services.openapi.json --force -o . --case-strategy lowercase --name pco-api-services",
+    "gen:webhooks": "openapi-to-skills specs/pco-api-webhooks.openapi.json --force -o . --case-strategy lowercase --name pco-api-webhooks",
+    "gen:license": "cp -f LICENSE pco-api-api/LICENSE.txt && cp -f LICENSE pco-api-calendar/LICENSE.txt && cp -f LICENSE pco-api-check-ins/LICENSE.txt && cp -f LICENSE pco-api-current/LICENSE.txt && cp -f LICENSE pco-api-giving/LICENSE.txt && cp -f LICENSE pco-api-groups/LICENSE.txt && cp -f LICENSE pco-api-people/LICENSE.txt && cp -f LICENSE pco-api-publishing/LICENSE.txt && (cp -f LICENSE pco-api-registrations/LICENSE.txt || true) && cp -f LICENSE pco-api-services/LICENSE.txt && cp -f LICENSE pco-api-webhooks/LICENSE.txt"
+  }
+}
