@@ -1,0 +1,93 @@
+# Person
+
+A person added to Planning Center Services.
+
+## Operations
+
+| Method | Path | Summary | Details |
+|--------|------|---------|----------|
+| GET | `/people` |  | [View](../operations/get-people.md) |
+| GET | `/people/{person_id}` |  | [View](../operations/get-people-person-id.md) |
+| PATCH | `/people/{person_id}` |  | [View](../operations/patch-people-person-id.md) |
+| POST | `/people/{person_id}/assign_tags` |  | [View](../operations/post-people-person-id-assign-tags.md) |
+| GET | `/people/{person_id}/available_signups` |  | [View](../operations/get-people-person-id-available-signups.md) |
+| GET | `/people/{person_id}/available_signups/{available_signup_id}` |  | [View](../operations/get-people-person-id-available-signups-available-signup-id.md) |
+| GET | `/people/{person_id}/available_signups/{available_signup_id}/signup_sheets` |  | [View](../operations/get-people-person-id-available-signups-available-signup-id-signup-sheets.md) |
+| GET | `/people/{person_id}/available_signups/{available_signup_id}/signup_sheets/{signup_sheet_id}` |  | [View](../operations/get-people-person-id-available-signups-available-signup-id-signup-sheets-signup-sheet-id.md) |
+| POST | `/people/{person_id}/available_signups/{available_signup_id}/signup_sheets/{signup_sheet_id}/accept` |  | [View](../operations/post-people-person-id-available-signups-available-signup-id-signup-sheets-signup-sheet-id-accept.md) |
+| GET | `/people/{person_id}/available_signups/{available_signup_id}/signup_sheets/{signup_sheet_id}/scheduled_people` |  | [View](../operations/get-people-person-id-available-signups-available-signup-id-signup-sheets-signup-sheet-id-scheduled-people.md) |
+| GET | `/people/{person_id}/available_signups/{available_signup_id}/signup_sheets/{signup_sheet_id}/scheduled_people/{scheduled_person_id}` |  | [View](../operations/get-people-person-id-available-signups-available-signup-id-signup-sheets-signup-sheet-id-scheduled-people-scheduled-person-id.md) |
+| GET | `/people/{person_id}/available_signups/{available_signup_id}/signup_sheets/{signup_sheet_id}/signup_sheet_metadata` |  | [View](../operations/get-people-person-id-available-signups-available-signup-id-signup-sheets-signup-sheet-id-signup-sheet-metadata.md) |
+| GET | `/people/{person_id}/blockouts` |  | [View](../operations/get-people-person-id-blockouts.md) |
+| POST | `/people/{person_id}/blockouts` |  | [View](../operations/post-people-person-id-blockouts.md) |
+| GET | `/people/{person_id}/blockouts/{blockout_id}` |  | [View](../operations/get-people-person-id-blockouts-blockout-id.md) |
+| DELETE | `/people/{person_id}/blockouts/{blockout_id}` |  | [View](../operations/delete-people-person-id-blockouts-blockout-id.md) |
+| PATCH | `/people/{person_id}/blockouts/{blockout_id}` |  | [View](../operations/patch-people-person-id-blockouts-blockout-id.md) |
+| GET | `/people/{person_id}/blockouts/{blockout_id}/blockout_dates` |  | [View](../operations/get-people-person-id-blockouts-blockout-id-blockout-dates.md) |
+| GET | `/people/{person_id}/blockouts/{blockout_id}/blockout_dates/{blockout_date_id}` |  | [View](../operations/get-people-person-id-blockouts-blockout-id-blockout-dates-blockout-date-id.md) |
+| GET | `/people/{person_id}/blockouts/{blockout_id}/blockout_exceptions` |  | [View](../operations/get-people-person-id-blockouts-blockout-id-blockout-exceptions.md) |
+| POST | `/people/{person_id}/blockouts/{blockout_id}/blockout_exceptions` |  | [View](../operations/post-people-person-id-blockouts-blockout-id-blockout-exceptions.md) |
+| GET | `/people/{person_id}/blockouts/{blockout_id}/blockout_exceptions/{blockout_exception_id}` |  | [View](../operations/get-people-person-id-blockouts-blockout-id-blockout-exceptions-blockout-exception-id.md) |
+| POST | `/people/{person_id}/collapse_service_types` |  | [View](../operations/post-people-person-id-collapse-service-types.md) |
+| GET | `/people/{person_id}/emails` |  | [View](../operations/get-people-person-id-emails.md) |
+| GET | `/people/{person_id}/emails/{email_id}` |  | [View](../operations/get-people-person-id-emails-email-id.md) |
+| POST | `/people/{person_id}/expand_service_types` |  | [View](../operations/post-people-person-id-expand-service-types.md) |
+| GET | `/people/{person_id}/person_team_position_assignments` |  | [View](../operations/get-people-person-id-person-team-position-assignments.md) |
+| GET | `/people/{person_id}/person_team_position_assignments/{person_team_position_assignment_id}` |  | [View](../operations/get-people-person-id-person-team-position-assignments-person-team-position-assignment-id.md) |
+| DELETE | `/people/{person_id}/person_team_position_assignments/{person_team_position_assignment_id}` |  | [View](../operations/delete-people-person-id-person-team-position-assignments-person-team-position-assignment-id.md) |
+| PATCH | `/people/{person_id}/person_team_position_assignments/{person_team_position_assignment_id}` |  | [View](../operations/patch-people-person-id-person-team-position-assignments-person-team-position-assignment-id.md) |
+| GET | `/people/{person_id}/plan_people` |  | [View](../operations/get-people-person-id-plan-people.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id.md) |
+| DELETE | `/people/{person_id}/plan_people/{plan_person_id}` |  | [View](../operations/delete-people-person-id-plan-people-plan-person-id.md) |
+| PATCH | `/people/{person_id}/plan_people/{plan_person_id}` |  | [View](../operations/patch-people-person-id-plan-people-plan-person-id.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/declined_plan_times` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-declined-plan-times.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/declined_plan_times/{declined_plan_time_id}` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-declined-plan-times-declined-plan-time-id.md) |
+| DELETE | `/people/{person_id}/plan_people/{plan_person_id}/declined_plan_times/{declined_plan_time_id}` |  | [View](../operations/delete-people-person-id-plan-people-plan-person-id-declined-plan-times-declined-plan-time-id.md) |
+| PATCH | `/people/{person_id}/plan_people/{plan_person_id}/declined_plan_times/{declined_plan_time_id}` |  | [View](../operations/patch-people-person-id-plan-people-plan-person-id-declined-plan-times-declined-plan-time-id.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/person` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-person.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/person/{person_id}` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-person-person-id.md) |
+| PATCH | `/people/{person_id}/plan_people/{plan_person_id}/person/{person_id}` |  | [View](../operations/patch-people-person-id-plan-people-plan-person-id-person-person-id.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/plan` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-plan.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/plan/{plan_id}` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-plan-plan-id.md) |
+| DELETE | `/people/{person_id}/plan_people/{plan_person_id}/plan/{plan_id}` |  | [View](../operations/delete-people-person-id-plan-people-plan-person-id-plan-plan-id.md) |
+| PATCH | `/people/{person_id}/plan_people/{plan_person_id}/plan/{plan_id}` |  | [View](../operations/patch-people-person-id-plan-people-plan-person-id-plan-plan-id.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/plan_person_times` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-plan-person-times.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/plan_person_times/{plan_person_time_id}` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-plan-person-times-plan-person-time-id.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/plan_times` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-plan-times.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/plan_times/{plan_time_id}` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-plan-times-plan-time-id.md) |
+| DELETE | `/people/{person_id}/plan_people/{plan_person_id}/plan_times/{plan_time_id}` |  | [View](../operations/delete-people-person-id-plan-people-plan-person-id-plan-times-plan-time-id.md) |
+| PATCH | `/people/{person_id}/plan_people/{plan_person_id}/plan_times/{plan_time_id}` |  | [View](../operations/patch-people-person-id-plan-people-plan-person-id-plan-times-plan-time-id.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/team` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-team.md) |
+| GET | `/people/{person_id}/plan_people/{plan_person_id}/team/{team_id}` |  | [View](../operations/get-people-person-id-plan-people-plan-person-id-team-team-id.md) |
+| GET | `/people/{person_id}/schedules` |  | [View](../operations/get-people-person-id-schedules.md) |
+| GET | `/people/{person_id}/schedules/{schedule_id}` |  | [View](../operations/get-people-person-id-schedules-schedule-id.md) |
+| POST | `/people/{person_id}/schedules/{schedule_id}/accept` |  | [View](../operations/post-people-person-id-schedules-schedule-id-accept.md) |
+| POST | `/people/{person_id}/schedules/{schedule_id}/decline` |  | [View](../operations/post-people-person-id-schedules-schedule-id-decline.md) |
+| GET | `/people/{person_id}/schedules/{schedule_id}/declined_plan_times` |  | [View](../operations/get-people-person-id-schedules-schedule-id-declined-plan-times.md) |
+| GET | `/people/{person_id}/schedules/{schedule_id}/declined_plan_times/{declined_plan_time_id}` |  | [View](../operations/get-people-person-id-schedules-schedule-id-declined-plan-times-declined-plan-time-id.md) |
+| DELETE | `/people/{person_id}/schedules/{schedule_id}/declined_plan_times/{declined_plan_time_id}` |  | [View](../operations/delete-people-person-id-schedules-schedule-id-declined-plan-times-declined-plan-time-id.md) |
+| PATCH | `/people/{person_id}/schedules/{schedule_id}/declined_plan_times/{declined_plan_time_id}` |  | [View](../operations/patch-people-person-id-schedules-schedule-id-declined-plan-times-declined-plan-time-id.md) |
+| GET | `/people/{person_id}/schedules/{schedule_id}/plan_times` |  | [View](../operations/get-people-person-id-schedules-schedule-id-plan-times.md) |
+| GET | `/people/{person_id}/schedules/{schedule_id}/plan_times/{plan_time_id}` |  | [View](../operations/get-people-person-id-schedules-schedule-id-plan-times-plan-time-id.md) |
+| DELETE | `/people/{person_id}/schedules/{schedule_id}/plan_times/{plan_time_id}` |  | [View](../operations/delete-people-person-id-schedules-schedule-id-plan-times-plan-time-id.md) |
+| PATCH | `/people/{person_id}/schedules/{schedule_id}/plan_times/{plan_time_id}` |  | [View](../operations/patch-people-person-id-schedules-schedule-id-plan-times-plan-time-id.md) |
+| GET | `/people/{person_id}/schedules/{schedule_id}/respond_to` |  | [View](../operations/get-people-person-id-schedules-schedule-id-respond-to.md) |
+| GET | `/people/{person_id}/schedules/{schedule_id}/respond_to/{respond_to_id}` |  | [View](../operations/get-people-person-id-schedules-schedule-id-respond-to-respond-to-id.md) |
+| PATCH | `/people/{person_id}/schedules/{schedule_id}/respond_to/{respond_to_id}` |  | [View](../operations/patch-people-person-id-schedules-schedule-id-respond-to-respond-to-id.md) |
+| GET | `/people/{person_id}/schedules/{schedule_id}/team` |  | [View](../operations/get-people-person-id-schedules-schedule-id-team.md) |
+| GET | `/people/{person_id}/schedules/{schedule_id}/team/{team_id}` |  | [View](../operations/get-people-person-id-schedules-schedule-id-team-team-id.md) |
+| GET | `/people/{person_id}/scheduling_preferences` |  | [View](../operations/get-people-person-id-scheduling-preferences.md) |
+| GET | `/people/{person_id}/scheduling_preferences/{scheduling_preference_id}` |  | [View](../operations/get-people-person-id-scheduling-preferences-scheduling-preference-id.md) |
+| GET | `/people/{person_id}/tags` |  | [View](../operations/get-people-person-id-tags.md) |
+| GET | `/people/{person_id}/tags/{tag_id}` |  | [View](../operations/get-people-person-id-tags-tag-id.md) |
+| GET | `/people/{person_id}/team_leaders` |  | [View](../operations/get-people-person-id-team-leaders.md) |
+| GET | `/people/{person_id}/team_leaders/{team_leader_id}` |  | [View](../operations/get-people-person-id-team-leaders-team-leader-id.md) |
+| GET | `/people/{person_id}/team_leaders/{team_leader_id}/people` |  | [View](../operations/get-people-person-id-team-leaders-team-leader-id-people.md) |
+| GET | `/people/{person_id}/team_leaders/{team_leader_id}/people/{person_id}` |  | [View](../operations/get-people-person-id-team-leaders-team-leader-id-people-person-id.md) |
+| PATCH | `/people/{person_id}/team_leaders/{team_leader_id}/people/{person_id}` |  | [View](../operations/patch-people-person-id-team-leaders-team-leader-id-people-person-id.md) |
+| GET | `/people/{person_id}/team_leaders/{team_leader_id}/team` |  | [View](../operations/get-people-person-id-team-leaders-team-leader-id-team.md) |
+| GET | `/people/{person_id}/team_leaders/{team_leader_id}/team/{team_id}` |  | [View](../operations/get-people-person-id-team-leaders-team-leader-id-team-team-id.md) |
+| GET | `/people/{person_id}/text_settings` |  | [View](../operations/get-people-person-id-text-settings.md) |
+| GET | `/people/{person_id}/text_settings/{text_setting_id}` |  | [View](../operations/get-people-person-id-text-settings-text-setting-id.md) |
+| PATCH | `/people/{person_id}/text_settings/{text_setting_id}` |  | [View](../operations/patch-people-person-id-text-settings-text-setting-id.md) |
+| GET | `/me` |  | [View](../operations/get-me.md) |

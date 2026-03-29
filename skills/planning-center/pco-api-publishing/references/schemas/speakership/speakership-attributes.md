@@ -1,0 +1,4 @@
+# speakership-attributes
+
+**Type:** object
+

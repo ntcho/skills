@@ -1,0 +1,29 @@
+# GET /service_types/{service_type_id}/plan_templates/{plan_template_id}/notes/{plan_note_id}/plan_note_category/{plan_note_category_id}
+
+**Resource:** [ServiceType](../resources/ServiceType.md)
+**Operation ID:** `get--service_types-{service_type_id}-plan_templates-{plan_template_id}-notes-{plan_note_id}-plan_note_category-{plan_note_category_id}`
+
+## Parameters
+
+| Name | In | Type | Required | Description |
+|------|------|------|----------|-------------|
+| `service_type_id` | path | string | Yes | The ServiceType id |
+| `plan_template_id` | path | string | Yes | The PlanTemplate id |
+| `plan_note_id` | path | string | Yes | The PlanNote id |
+| `plan_note_category_id` | path | string | Yes | The PlanNoteCategory id |
+
+## Responses
+
+| Status | Description |
+|--------|-------------|
+| 200 | Successful read response |
+| 400 | (reference) |
+| 401 | (reference) |
+| 403 | (reference) |
+| 404 | (reference) |
+| 500 | (reference) |
+
+**Success Response Schema:**
+
+[plan_note_plan_note_category_resource_envelope](../schemas/plan/plan-note-plan-note-category-resource-envelope.md)
+

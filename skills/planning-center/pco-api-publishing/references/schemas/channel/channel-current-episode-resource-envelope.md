@@ -1,0 +1,28 @@
+# channel-current-episode-resource-envelope
+
+**Type:** object
+
+## Fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `data` | [episode_resource](episode-resource.md) | No |  |
+| `included` | any[] | No |  |
+| `meta` | object | No |  |
+
+## Nested Fields
+
+### `meta`
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `can_include` | enum: channel,episode_resources,episode_times,series,speakerships | No |  |
+| `parent` | object | No |  |
+
+#### `meta.parent`
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `id` | string | No |  |
+| `type` | enum: Channel | No |  |
+

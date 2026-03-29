@@ -1,0 +1,4 @@
+# precheck-attributes
+
+**Type:** object
+
