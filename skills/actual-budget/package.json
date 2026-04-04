@@ -1,0 +1,14 @@
+{
+  "config": {
+    "http_api": "https://raw.githubusercontent.com/ntcho/skills/refs/heads/main/skills/actual-budget/specs/actual-budget-http-api.openapi.json",
+    "license": "https://raw.githubusercontent.com/jhonderson/actual-http-api/refs/heads/main/LICENSE"
+  },
+  "scripts": {
+    "fetch": "bun fetch:license && bun fetch:http-api",
+    "fetch:license": "curl -s $npm_package_config_license -o LICENSE",
+    "fetch:http-api": "curl -s $npm_package_config_http_api -o specs/actual-budget-http-api.openapi.json",
+    "gen": "bun fetch && bun gen:http-api",
+    "gen:http-api": "openapi-to-skills specs/actual-budget-http-api.openapi.json --force -o . --case-strategy lowercase --name actual-budget-http-api",
+    "gen:license": "cp -f LICENSE actual-budget-http-api/LICENSE.txt"
+  }
+}

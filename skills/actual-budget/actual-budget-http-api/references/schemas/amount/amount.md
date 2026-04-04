@@ -1,0 +1,4 @@
+# amount
+
+**Type:** primitive
+
