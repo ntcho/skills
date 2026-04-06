@@ -1,6 +1,6 @@
 # item Schemas
 
-30 schemas in this group.
+32 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
@@ -15,6 +15,7 @@
 | [item-arrangement-resource-envelope](item-arrangement-resource-envelope.md) | object |  |
 | [item-attachments-resource-envelope](item-attachments-resource-envelope.md) | object |  |
 | [item-custom-slides-resource-envelope](item-custom-slides-resource-envelope.md) | object |  |
+| [item-item-assignments-resource-envelope](item-item-assignments-resource-envelope.md) | object |  |
 | [item-item-notes-resource-envelope](item-item-notes-resource-envelope.md) | object |  |
 | [item-item-times-resource-envelope](item-item-times-resource-envelope.md) | object |  |
 | [item-key-resource-envelope](item-key-resource-envelope.md) | object |  |
@@ -26,6 +27,7 @@
 | [item-arrangement-collection-envelope](item-arrangement-collection-envelope.md) | object |  |
 | [item-attachments-collection-envelope](item-attachments-collection-envelope.md) | object |  |
 | [item-custom-slides-collection-envelope](item-custom-slides-collection-envelope.md) | object |  |
+| [item-item-assignments-collection-envelope](item-item-assignments-collection-envelope.md) | object |  |
 | [item-item-notes-collection-envelope](item-item-notes-collection-envelope.md) | object |  |
 | [item-item-times-collection-envelope](item-item-times-collection-envelope.md) | object |  |
 | [item-key-collection-envelope](item-key-collection-envelope.md) | object |  |

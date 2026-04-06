@@ -1,4 +1,4 @@
-# backgroundcheck-resource
+# itemassignment-resource
 
 **Type:** object
 
@@ -7,8 +7,8 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `id` | string | No |  |
-| `type` | enum: BackgroundCheck | No |  |
-| `attributes` | [backgroundcheck_attributes](backgroundcheck-attributes.md) | No |  |
+| `type` | enum: ItemAssignment | No |  |
+| `attributes` | [itemassignment_attributes](itemassignment-attributes.md) | No |  |
 | `relationships` | object | No |  |
 | `links` | object | No |  |
 
@@ -18,17 +18,25 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `person` | object | No |  |
-| `created_by` | object | No |  |
+| `plan` | object | No |  |
+| `item` | object | No |  |
+| `assignable` | object | No | Can be a Person or TeamPosition. |
 
-#### `relationships.person`
+#### `relationships.plan`
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `links` | object | No |  |
 | `data` | object | No |  |
 
-#### `relationships.created_by`
+#### `relationships.item`
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `links` | object | No |  |
+| `data` | object | No |  |
+
+#### `relationships.assignable`
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
@@ -40,6 +48,4 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `self` | string | No |  |
-| `created_by` | string | No |  |
-| `person` | string | No |  |
 

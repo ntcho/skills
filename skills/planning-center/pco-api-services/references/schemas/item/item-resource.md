@@ -75,6 +75,7 @@
 | `arrangement` | string | No |  |
 | `attachments` | string | No |  |
 | `custom_slides` | string | No |  |
+| `item_assignments` | string | No |  |
 | `item_notes` | string | No |  |
 | `item_times` | string | No |  |
 | `key` | string | No |  |

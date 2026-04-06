@@ -1,4 +1,4 @@
-# organization-background-checks-resource-envelope
+# item-item-assignments-resource-envelope
 
 **Type:** object
 
@@ -6,8 +6,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `data` | [backgroundcheck_resource](backgroundcheck-resource.md) | No |  |
-| `included` | any[] | No |  |
+| `data` | [itemassignment_resource](itemassignment-resource.md) | No |  |
 | `meta` | object | No |  |
 
 ## Nested Fields
@@ -16,7 +15,6 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_include` | enum: created_by,person | No |  |
 | `parent` | object | No |  |
 
 #### `meta.parent`
@@ -24,5 +22,5 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `id` | string | No |  |
-| `type` | enum: Organization | No |  |
+| `type` | enum: Item | No |  |
 

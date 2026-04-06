@@ -1,4 +1,4 @@
-# person-background-checks-resource-envelope
+# itemassignment-relationships-assignable-on-create
 
 **Type:** object
 
@@ -6,23 +6,20 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `data` | [backgroundcheck_resource](backgroundcheck-resource.md) | No |  |
-| `included` | any[] | No |  |
-| `meta` | object | No |  |
+| `assignable` | object | No | Can be a Person or TeamPosition. |
 
 ## Nested Fields
 
-### `meta`
+### `assignable`
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_include` | enum: created_by,person | No |  |
-| `parent` | object | No |  |
+| `data` | object | No |  |
 
-#### `meta.parent`
+#### `assignable.data`
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `type` | string | No |  |
 | `id` | string | No |  |
-| `type` | enum: Person | No |  |
 

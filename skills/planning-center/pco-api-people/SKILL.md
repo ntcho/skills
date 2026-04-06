@@ -19,8 +19,8 @@ This API documentation is split into multiple files for on-demand loading.
 ```
 references/
 ├── resources/      # 36 resource index files
-├── operations/     # 502 operation detail files
-└── schemas/        # 82 schema groups, 630 schema files
+├── operations/     # 506 operation detail files
+└── schemas/        # 82 schema groups, 632 schema files
 ```
 
 **Navigation flow:**
@@ -52,9 +52,9 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 - **Campus** → `references/resources/Campus.md` (13 ops) - A Campus is a location belonging to an Organizatio
 - **FieldDefinition** → `references/resources/FieldDefinition.md` (13 ops) - A field definition represents a custom field -- it
 - **Report** → `references/resources/Report.md` (13 ops) - A report is editable liquid syntax that provides a
+- **BackgroundCheck** → `references/resources/BackgroundCheck.md` (12 ops) - Background Checks for a Person
 - **MessageGroup** → `references/resources/MessageGroup.md` (10 ops) - A message group represents one or more emails or t
 - **SchoolOption** → `references/resources/SchoolOption.md` (9 ops) - A school option represents a school name, school t
-- **BackgroundCheck** → `references/resources/BackgroundCheck.md` (8 ops) - Background Checks for a Person
 - **Email** → `references/resources/Email.md` (8 ops) - An email represents an email address and location.
 - **ListCategory** → `references/resources/ListCategory.md` (8 ops) - A List Category
 - **Message** → `references/resources/Message.md` (8 ops) - A message is an individual email or sms text sent 

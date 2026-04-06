@@ -17,7 +17,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_include` | enum: person | No |  |
+| `can_include` | enum: created_by,person | No |  |
 | `parent` | object | No |  |
 | `total_count` | integer | No |  |
 | `count` | integer | No |  |

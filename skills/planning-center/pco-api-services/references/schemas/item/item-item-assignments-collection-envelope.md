@@ -1,4 +1,4 @@
-# live-items-collection-envelope
+# item-item-assignments-collection-envelope
 
 **Type:** object
 
@@ -6,8 +6,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `data` | item_resource[] | No |  |
-| `included` | any[] | No |  |
+| `data` | itemassignment_resource[] | No |  |
 | `meta` | object | No |  |
 | `links` | object | No |  |
 
@@ -17,7 +16,6 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_include` | enum: arrangement,item_assignments,item_notes,item_times,key,media,selected_attachment,song | No |  |
 | `parent` | object | No |  |
 | `total_count` | integer | No |  |
 | `count` | integer | No |  |
@@ -29,7 +27,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `id` | string | No |  |
-| `type` | enum: Live | No |  |
+| `type` | enum: Item | No |  |
 
 #### `meta.prev`
 

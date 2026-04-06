@@ -16,7 +16,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_include` | enum: arrangement,item_notes,item_times,key,media,selected_attachment,song | No |  |
+| `can_include` | enum: arrangement,item_assignments,item_notes,item_times,key,media,selected_attachment,song | No |  |
 | `parent` | object | No |  |
 
 #### `meta.parent`
