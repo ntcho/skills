@@ -26,7 +26,7 @@
     "fetch:registrations": "curl -s $npm_package_config_registrations -o specs/pco-api-registrations.openapi.json",
     "fetch:services": "curl -s $npm_package_config_services -o specs/pco-api-services.openapi.json",
     "fetch:webhooks": "curl -s $npm_package_config_webhooks -o specs/pco-api-webhooks.openapi.json",
-    "gen": "bun fetch && bun gen:api && bun gen:calendar && bun gen:check-ins && bun gen:current && bun gen:giving && bun gen:groups && bun gen:people && bun gen:publishing && (bun gen:registrations || true) && bun gen:services && bun gen:webhooks && bun gen:license",
+    "gen": "bun fetch && bun gen:api && bun gen:calendar && bun gen:check-ins && bun gen:current && bun gen:giving && bun gen:groups && bun gen:people && bun gen:publishing && bun gen:registrations && bun gen:services && bun gen:webhooks && bun gen:license",
     "gen:api": "openapi-to-skills specs/pco-api-api.openapi.json --force -o . --case-strategy lowercase --name pco-api-api",
     "gen:calendar": "openapi-to-skills specs/pco-api-calendar.openapi.json --force -o . --case-strategy lowercase --name pco-api-calendar",
     "gen:check-ins": "openapi-to-skills specs/pco-api-check-ins.openapi.json --force -o . --case-strategy lowercase --name pco-api-check-ins",
@@ -38,6 +38,6 @@
     "gen:registrations": "openapi-to-skills specs/pco-api-registrations.openapi.json --force -o . --case-strategy lowercase --name pco-api-registrations",
     "gen:services": "openapi-to-skills specs/pco-api-services.openapi.json --force -o . --case-strategy lowercase --name pco-api-services",
     "gen:webhooks": "openapi-to-skills specs/pco-api-webhooks.openapi.json --force -o . --case-strategy lowercase --name pco-api-webhooks",
-    "gen:license": "cp -f LICENSE pco-api-api/LICENSE.txt && cp -f LICENSE pco-api-calendar/LICENSE.txt && cp -f LICENSE pco-api-check-ins/LICENSE.txt && cp -f LICENSE pco-api-current/LICENSE.txt && cp -f LICENSE pco-api-giving/LICENSE.txt && cp -f LICENSE pco-api-groups/LICENSE.txt && cp -f LICENSE pco-api-people/LICENSE.txt && cp -f LICENSE pco-api-publishing/LICENSE.txt && (cp -f LICENSE pco-api-registrations/LICENSE.txt || true) && cp -f LICENSE pco-api-services/LICENSE.txt && cp -f LICENSE pco-api-webhooks/LICENSE.txt"
+    "gen:license": "cp -f LICENSE pco-api-api/LICENSE.txt && cp -f LICENSE pco-api-calendar/LICENSE.txt && cp -f LICENSE pco-api-check-ins/LICENSE.txt && cp -f LICENSE pco-api-current/LICENSE.txt && cp -f LICENSE pco-api-giving/LICENSE.txt && cp -f LICENSE pco-api-groups/LICENSE.txt && cp -f LICENSE pco-api-people/LICENSE.txt && cp -f LICENSE pco-api-publishing/LICENSE.txt && cp -f LICENSE pco-api-registrations/LICENSE.txt && cp -f LICENSE pco-api-services/LICENSE.txt && cp -f LICENSE pco-api-webhooks/LICENSE.txt"
   }
 }
