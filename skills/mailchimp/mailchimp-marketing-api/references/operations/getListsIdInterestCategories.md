@@ -16,6 +16,8 @@ Get information about a list's interest categories.
 | `count` | query | integer | No | The number of records to return. Default value is 10. Maximum value is 1000 |
 | `offset` | query | integer | No | Used for [pagination](https://mailchimp.com/developer/marketing/docs/methods-parameters/#pagination), this is the number of records from a collection to skip. Default value is 0. |
 | `type` | query | string | No | Restrict results a type of interest group |
+| `sort_field` | query | enum: name, display_order | No | Returns interest categories sorted by the specified field. Defaults to display_order. |
+| `sort_dir` | query | enum: ASC, DESC | No | Determines the order direction for sorted results. |
 
 ## Responses
 

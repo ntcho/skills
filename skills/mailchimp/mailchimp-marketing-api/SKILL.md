@@ -16,8 +16,8 @@ This API documentation is split into multiple files for on-demand loading.
 **Directory structure:**
 ```
 references/
-├── resources/      # 29 resource index files
-├── operations/     # 286 operation detail files
+├── resources/      # 30 resource index files
+├── operations/     # 296 operation detail files
 └── schemas/        # 0 schema groups, 0 schema files
 ```
 
@@ -44,6 +44,7 @@ Supported methods: **basicAuth**. See `references/authentication.md` for details
 - **automations** → `references/resources/automations.md` (18 ops)
 - **reporting** → `references/resources/reporting.md` (12 ops)
 - **fileManager** → `references/resources/fileManager.md` (11 ops)
+- **sms-campaigns** → `references/resources/sms-campaigns.md` (10 ops)
 - **contacts** → `references/resources/contacts.md` (8 ops)
 - **landingPages** → `references/resources/landingPages.md` (8 ops)
 - **templates** → `references/resources/templates.md` (6 ops)

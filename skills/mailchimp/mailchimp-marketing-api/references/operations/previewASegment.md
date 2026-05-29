@@ -23,6 +23,7 @@ Get information about all available segments for a specific list.
 | `include_unsubscribed` | query | boolean | No | Include unsubscribed members in response |
 | `since_updated_at` | query | string | No | Restrict results to segments update after the set time. Uses ISO 8601 time format: 2015-10-21T15:41:36+00:00. |
 | `before_updated_at` | query | string | No | Restrict results to segments update before the set time. Uses ISO 8601 time format: 2015-10-21T15:41:36+00:00. |
+| `exclude_type` | query | enum: saved, static, fuzzy | No | Exclude results based on segment type. For example, use `exclude_type=static` to exclude tags from the response. |
 
 ## Responses
 

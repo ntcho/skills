@@ -26,6 +26,7 @@ Get all campaigns in an account.
 | `sort_field` | query | enum: create_time, send_time | No | Returns files sorted by the specified field. |
 | `sort_dir` | query | enum: ASC, DESC | No | Determines the order direction for sorted results. |
 | `include_resend_shortcut_eligibility` | query | boolean | No | Return the `resend_shortcut_eligibility` field in the response, which tells you if the campaign is eligible for the various Campaign Resend Shortcuts offered. |
+| `include_resend_shortcut_usage` | query | boolean | No | Return the `resend_shortcut_usage` field in the response.  This includes information about campaigns related by a shortcut. |
 
 ## Responses
 
