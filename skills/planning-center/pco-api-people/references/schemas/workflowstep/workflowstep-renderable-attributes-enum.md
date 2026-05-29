@@ -14,5 +14,6 @@
 - `my_ready_card_count`
 - `name`
 - `sequence`
+- `skip_conditions_enabled`
 - `total_ready_card_count`
 - `updated_at`

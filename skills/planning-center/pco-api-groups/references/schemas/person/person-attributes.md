@@ -33,6 +33,8 @@ Only available when requested with the `?fields` param |
  |
 | `first_name` | string | No | The person's first name.
  |
+| `gender` | string | No | The person's gender (e.g. `Male`, `Female`).
+ |
 | `last_name` | string | No | The person's last name.
  |
 | `permissions` | string | No | Can be `administrator`, `group_type_manager`, `leader`, `member`, or `no access`.

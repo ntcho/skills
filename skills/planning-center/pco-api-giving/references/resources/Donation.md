@@ -28,7 +28,7 @@ A `Donation` record corresponds to a gift given to an `Organization` at a partic
 | PATCH | `/donations/{donation_id}/labels/{label_id}` |  | [View](../operations/patch-donations-donation-id-labels-label-id.md) |
 | GET | `/donations/{donation_id}/note` |  | [View](../operations/get-donations-donation-id-note.md) |
 | GET | `/donations/{donation_id}/refund` |  | [View](../operations/get-donations-donation-id-refund.md) |
+| GET | `/donations/{donation_id}/refund/designation_refunds` |  | [View](../operations/get-donations-donation-id-refund-designation-refunds.md) |
+| GET | `/donations/{donation_id}/refund/designation_refunds/{designation_refund_id}` |  | [View](../operations/get-donations-donation-id-refund-designation-refunds-designation-refund-id.md) |
 | GET | `/donations/{donation_id}/refund/designation_refunds/{designation_refund_id}/designation` |  | [View](../operations/get-donations-donation-id-refund-designation-refunds-designation-refund-id-designation.md) |
 | GET | `/donations/{donation_id}/refund/designation_refunds/{designation_refund_id}/designation/{designation_id}` |  | [View](../operations/get-donations-donation-id-refund-designation-refunds-designation-refund-id-designation-designation-id.md) |
-| GET | `/donations/{donation_id}/refund/{refund_id}/designation_refunds` |  | [View](../operations/get-donations-donation-id-refund-refund-id-designation-refunds.md) |
-| GET | `/donations/{donation_id}/refund/{refund_id}/designation_refunds/{designation_refund_id}` |  | [View](../operations/get-donations-donation-id-refund-refund-id-designation-refunds-designation-refund-id.md) |

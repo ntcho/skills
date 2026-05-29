@@ -8,6 +8,7 @@ A list is a powerful tool for finding and grouping people together using any cri
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `active_automations_count` | integer | No |  |
 | `auto_generated_name` | boolean | No |  |
 | `auto_refresh` | boolean | No |  |
 | `auto_refresh_frequency` | string | No |  |

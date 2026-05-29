@@ -11,7 +11,7 @@ A Service Type is a container for plans.
 | `archived_at` | string (date-time) | No |  |
 | `attachment_types_enabled` | boolean | No |  |
 | `background_check_permissions` | string | No |  |
-| `comment_permissions` | string | No |  |
+| `comment_permissions` | string | No | DEPRECATED: this attribute will be removed in the next release and will return the string "DEPRECATED" in this version |
 | `created_at` | string (date-time) | No |  |
 | `custom_item_types` | any[] | No | A array of hashes that maps an item title substring matcher to a color:
 

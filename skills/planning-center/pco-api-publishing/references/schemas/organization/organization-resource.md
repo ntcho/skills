@@ -18,6 +18,8 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `self` | string | No |  |
+| `announcement_categories` | string | No |  |
+| `announcements` | string | No |  |
 | `channels` | string | No |  |
 | `episodes` | string | No |  |
 | `series` | string | No |  |

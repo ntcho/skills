@@ -23,7 +23,7 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_order_by` | enum: value,file,file_size,file_content_type,file_name | No |  |
+| `can_order_by` | enum: value,file,file_size,file_content_type,file_name,created_at,updated_at | No |  |
 | `can_query_by` | enum: value,file,file_size,file_content_type,file_name,field_definition_id | No |  |
 
 #### `meta.parent`

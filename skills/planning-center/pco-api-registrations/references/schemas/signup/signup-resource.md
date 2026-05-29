@@ -18,6 +18,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `self` | string | No |  |
+| `html_url` | string | No |  |
 | `attendees` | string | No |  |
 | `campuses` | string | No |  |
 | `categories` | string | No |  |

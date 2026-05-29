@@ -42,4 +42,5 @@
 | `self` | string | No |  |
 | `assignee_summaries` | string | No |  |
 | `default_assignee` | string | No |  |
+| `workflow_step_rules` | string | No |  |
 

@@ -22,6 +22,7 @@
 | `medical_notes` | string | No |  |
 | `membership` | string | No |  |
 | `stripe_customer_identifier` | string | No | Only available when requested with the `?fields` param |
+| `stripe_account_identifier` | string | No | Only available when requested with the `?fields` param |
 | `in_app` | string | No |  |
 | `created_by_id` | string | No |  |
 | `avatar` | string | No | File UUID (see [File Uploads](#file-uploads) section) |

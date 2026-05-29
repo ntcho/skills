@@ -95,6 +95,8 @@ A person record represents a single member/user of the application. Each person 
 | GET | `/people/{person_id}/social_profiles/{social_profile_id}` |  | [View](../operations/get-people-person-id-social-profiles-social-profile-id.md) |
 | DELETE | `/people/{person_id}/social_profiles/{social_profile_id}` |  | [View](../operations/delete-people-person-id-social-profiles-social-profile-id.md) |
 | PATCH | `/people/{person_id}/social_profiles/{social_profile_id}` |  | [View](../operations/patch-people-person-id-social-profiles-social-profile-id.md) |
+| GET | `/people/{person_id}/workflow_assignee_workflow_summaries` |  | [View](../operations/get-people-person-id-workflow-assignee-workflow-summaries.md) |
+| GET | `/people/{person_id}/workflow_assignee_workflow_summaries/{workflow_assignee_workflow_summary_id}` |  | [View](../operations/get-people-person-id-workflow-assignee-workflow-summaries-workflow-assignee-workflow-summary-id.md) |
 | GET | `/people/{person_id}/workflow_cards` |  | [View](../operations/get-people-person-id-workflow-cards.md) |
 | GET | `/people/{person_id}/workflow_cards/{workflow_card_id}` |  | [View](../operations/get-people-person-id-workflow-cards-workflow-card-id.md) |
 | DELETE | `/people/{person_id}/workflow_cards/{workflow_card_id}` |  | [View](../operations/delete-people-person-id-workflow-cards-workflow-card-id.md) |

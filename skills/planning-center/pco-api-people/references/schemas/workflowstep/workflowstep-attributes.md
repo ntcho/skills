@@ -20,6 +20,7 @@ Possible values: `day`, `week`, or `month` |
 | `my_ready_card_count` | integer | No |  |
 | `name` | string | No |  |
 | `sequence` | integer | No |  |
+| `skip_conditions_enabled` | boolean | No |  |
 | `total_ready_card_count` | integer | No |  |
 | `updated_at` | string (date-time) | No |  |
 

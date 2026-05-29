@@ -4,6 +4,8 @@
 
 ## Values
 
+- `attachments_meta`
+- `attachments_urls`
 - `automation_url`
 - `comment`
 - `content`

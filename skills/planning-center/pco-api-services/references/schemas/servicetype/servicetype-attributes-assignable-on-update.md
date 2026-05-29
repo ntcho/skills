@@ -9,7 +9,6 @@
 | `attachment_types_enabled` | boolean | No |  |
 | `background_check_permissions` | string | No |  |
 | `create_teams` | string | No |  |
-| `comment_permissions` | string | No |  |
 | `custom_item_types` | any[] | No | A array of hashes that maps an item title substring matcher to a color:
 
 [{ name: "Announcements", color: "#FFFFFF" }]

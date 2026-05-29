@@ -29,6 +29,7 @@ or a signed_identifier from an existing File.
 | `group_chat_enabled` | boolean | No |  |
 | `name` | string | No |  |
 | `position` | integer | No |  |
+| `archived` | boolean | No |  |
 | `published` | boolean | No |  |
 | `sermon_notes_enabled` | boolean | No |  |
 

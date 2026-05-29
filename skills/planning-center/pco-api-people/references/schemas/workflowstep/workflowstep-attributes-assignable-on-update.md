@@ -15,4 +15,5 @@
 | `auto_snooze_interval` | string | No | Valid values are `day`, `week`, or `month`
 
 Possible values: `day`, `week`, or `month` |
+| `skip_conditions_enabled` | boolean | No |  |
 

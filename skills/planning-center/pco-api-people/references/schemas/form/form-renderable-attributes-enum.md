@@ -5,8 +5,10 @@
 ## Values
 
 - `active`
+- `allow_submitting_for_household_members`
 - `archived`
 - `archived_at`
+- `can_manage`
 - `created_at`
 - `deleted_at`
 - `description`

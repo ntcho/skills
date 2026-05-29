@@ -16,6 +16,7 @@
 - `plan_visible`
 - `plan_visible_to_me`
 - `position_display_times`
+- `reschedule_declines`
 - `responds_to_name`
 - `service_type_name`
 - `short_dates`

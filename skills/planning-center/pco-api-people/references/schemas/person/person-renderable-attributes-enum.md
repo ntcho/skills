@@ -36,5 +36,6 @@
 - `school_type`
 - `site_administrator`
 - `status`
+- `stripe_account_identifier`
 - `stripe_customer_identifier`
 - `updated_at`

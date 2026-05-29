@@ -5,6 +5,7 @@
 ## Values
 
 - `activate_episode_minutes_before`
+- `archived`
 - `art`
 - `can_enable_chat`
 - `church_center_url`

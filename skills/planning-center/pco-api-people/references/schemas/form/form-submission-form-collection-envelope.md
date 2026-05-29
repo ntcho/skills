@@ -23,7 +23,7 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_order_by` | enum: name,description,active,archived_at,created_at,updated_at,deleted_at | No |  |
+| `can_order_by` | enum: name,description,active,archived_at,created_at,updated_at,deleted_at,recently_viewed,submission_count,campus,category | No |  |
 | `can_query_by` | enum: active,id | No |  |
 
 #### `meta.parent`

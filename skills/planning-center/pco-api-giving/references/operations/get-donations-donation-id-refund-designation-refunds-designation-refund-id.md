@@ -1,14 +1,13 @@
-# GET /donations/{donation_id}/refund/{refund_id}/designation_refunds/{designation_refund_id}
+# GET /donations/{donation_id}/refund/designation_refunds/{designation_refund_id}
 
 **Resource:** [Donation](../resources/Donation.md)
-**Operation ID:** `get--donations-{donation_id}-refund-{refund_id}-designation_refunds-{designation_refund_id}`
+**Operation ID:** `get--donations-{donation_id}-refund-designation_refunds-{designation_refund_id}`
 
 ## Parameters
 
 | Name | In | Type | Required | Description |
 |------|------|------|----------|-------------|
 | `donation_id` | path | string | Yes | The Donation id |
-| `refund_id` | path | string | Yes | The Refund id |
 | `designation_refund_id` | path | string | Yes | The DesignationRefund id |
 
 ## Responses

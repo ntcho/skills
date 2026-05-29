@@ -23,7 +23,7 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_order_by` | enum: name,created_at,updated_at,deleted_at,archived_at,campus_id,workflow_category_id | No |  |
+| `can_order_by` | enum: name,created_at,updated_at,deleted_at,archived_at,campus_id,workflow_category_id,recently_viewed,my_ready_card_count,total_ready_card_count,total_overdue_card_count,total_unassigned_card_count,campus_name,workflow_category_name | No |  |
 | `can_query_by` | enum: name,created_at,updated_at,deleted_at,archived_at,campus_id,workflow_category_id,ready,id | No |  |
 
 #### `meta.parent`

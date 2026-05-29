@@ -8,6 +8,8 @@ Workflow Card Activity is a record of an action performed on a card
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `attachments_meta` | any[] | No |  |
+| `attachments_urls` | any[] | No |  |
 | `automation_url` | string | No |  |
 | `comment` | string | No |  |
 | `content` | string | No |  |

@@ -1,6 +1,6 @@
 # list Schemas
 
-30 schemas in this group.
+32 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
@@ -17,6 +17,7 @@
 | [list-list-results-resource-envelope](list-list-results-resource-envelope.md) | object |  |
 | [list-mailchimp-sync-status-resource-envelope](list-mailchimp-sync-status-resource-envelope.md) | object |  |
 | [list-people-resource-envelope](list-people-resource-envelope.md) | object |  |
+| [list-result-person-resource-envelope](list-result-person-resource-envelope.md) | object |  |
 | [list-rules-resource-envelope](list-rules-resource-envelope.md) | object |  |
 | [list-share-person-resource-envelope](list-share-person-resource-envelope.md) | object |  |
 | [list-shares-resource-envelope](list-shares-resource-envelope.md) | object |  |
@@ -29,6 +30,7 @@
 | [list-list-results-collection-envelope](list-list-results-collection-envelope.md) | object |  |
 | [list-mailchimp-sync-status-collection-envelope](list-mailchimp-sync-status-collection-envelope.md) | object |  |
 | [list-people-collection-envelope](list-people-collection-envelope.md) | object |  |
+| [list-result-person-collection-envelope](list-result-person-collection-envelope.md) | object |  |
 | [list-rules-collection-envelope](list-rules-collection-envelope.md) | object |  |
 | [list-share-person-collection-envelope](list-share-person-collection-envelope.md) | object |  |
 | [list-shares-collection-envelope](list-shares-collection-envelope.md) | object |  |

@@ -11,11 +11,11 @@ A person added to Planning Center Services.
 | `access_media_attachments` | boolean | No |  |
 | `access_plan_attachments` | boolean | No |  |
 | `access_song_attachments` | boolean | No |  |
-| `anniversary` | string (date-time) | No |  |
+| `anniversary` | string (date) | No |  |
 | `archived` | boolean | No |  |
 | `archived_at` | string (date-time) | No |  |
 | `assigned_to_rehearsal_team` | boolean | No |  |
-| `birthdate` | string (date-time) | No |  |
+| `birthdate` | string (date) | No |  |
 | `can_edit_all_people` | boolean | No |  |
 | `can_view_all_people` | boolean | No |  |
 | `created_at` | string (date-time) | No |  |

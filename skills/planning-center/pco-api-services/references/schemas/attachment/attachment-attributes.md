@@ -9,6 +9,7 @@ A file, whether it's stored on Planning Center or linked from another location.
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `allow_mp3_download` | boolean | No |  |
+| `attachable_type` | string | No |  |
 | `content` | string | No |  |
 | `content_type` | string | No |  |
 | `created_at` | string (date-time) | No |  |

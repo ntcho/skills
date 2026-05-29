@@ -1,6 +1,6 @@
 # organization Schemas
 
-73 schemas in this group.
+75 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
@@ -41,6 +41,7 @@
 | [organization-spam-email-addresses-resource-envelope](organization-spam-email-addresses-resource-envelope.md) | object |  |
 | [organization-stats-resource-envelope](organization-stats-resource-envelope.md) | object |  |
 | [organization-tabs-resource-envelope](organization-tabs-resource-envelope.md) | object |  |
+| [organization-workflow-assignee-summaries-resource-envelope](organization-workflow-assignee-summaries-resource-envelope.md) | object |  |
 | [organization-workflows-resource-envelope](organization-workflows-resource-envelope.md) | object |  |
 | [organization-addresses-collection-envelope](organization-addresses-collection-envelope.md) | object |  |
 | [organization-apps-collection-envelope](organization-apps-collection-envelope.md) | object |  |
@@ -76,4 +77,5 @@
 | [organization-spam-email-addresses-collection-envelope](organization-spam-email-addresses-collection-envelope.md) | object |  |
 | [organization-stats-collection-envelope](organization-stats-collection-envelope.md) | object |  |
 | [organization-tabs-collection-envelope](organization-tabs-collection-envelope.md) | object |  |
+| [organization-workflow-assignee-summaries-collection-envelope](organization-workflow-assignee-summaries-collection-envelope.md) | object |  |
 | [organization-workflows-collection-envelope](organization-workflows-collection-envelope.md) | object |  |

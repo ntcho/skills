@@ -1,7 +1,8 @@
 # invalid Schemas
 
-1 schemas in this group.
+2 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
+| [invalidenumvalueerror](invalidenumvalueerror.md) | object |  |
 | [invalidpayloaderror](invalidpayloaderror.md) | object |  |

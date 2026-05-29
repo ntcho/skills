@@ -10,6 +10,7 @@
 - `created_at`
 - `email_addresses`
 - `first_name`
+- `gender`
 - `last_name`
 - `permissions`
 - `phone_numbers`

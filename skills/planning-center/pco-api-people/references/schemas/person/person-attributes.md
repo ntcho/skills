@@ -46,6 +46,7 @@ A person record represents a single member/user of the application. Each person 
 | `search_phone_number_e164` | string | No |  |
 | `site_administrator` | boolean | No |  |
 | `status` | string | No | Set to "inactive" to set "inactivated_at" to the current time and make the profile inactive. Set to anything else to clear "inactivated_at" and reactivate the profile. |
+| `stripe_account_identifier` | string | No | Only available when requested with the `?fields` param |
 | `stripe_customer_identifier` | string | No | Only available when requested with the `?fields` param |
 | `updated_at` | string (date-time) | No |  |
 

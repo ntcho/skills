@@ -7,6 +7,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `data` | listresult_resource[] | No |  |
+| `included` | any[] | No |  |
 | `meta` | object | No |  |
 | `links` | object | No |  |
 
@@ -16,12 +17,14 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `can_include` | enum: person | No |  |
 | `parent` | object | No |  |
 | `total_count` | integer | No |  |
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: created_at,updated_at | No |  |
+| `can_query_by` | enum: person_id | No |  |
 
 #### `meta.parent`
 

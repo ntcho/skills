@@ -10,5 +10,6 @@ A form submission.
 |-------|------|----------|-------------|
 | `created_at` | string (date-time) | No |  |
 | `requires_verification` | boolean | No | Only available when requested with the `?fields` param |
+| `updated_at` | string (date-time) | No |  |
 | `verified` | boolean | No |  |
 

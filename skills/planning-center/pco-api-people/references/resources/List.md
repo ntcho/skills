@@ -23,6 +23,10 @@ A list is a powerful tool for finding and grouping people together using any cri
 | PATCH | `/lists/{list_id}/created_by/{created_by_id}` |  | [View](../operations/patch-lists-list-id-created-by-created-by-id.md) |
 | GET | `/lists/{list_id}/list_results` |  | [View](../operations/get-lists-list-id-list-results.md) |
 | GET | `/lists/{list_id}/list_results/{list_result_id}` |  | [View](../operations/get-lists-list-id-list-results-list-result-id.md) |
+| GET | `/lists/{list_id}/list_results/{list_result_id}/person` |  | [View](../operations/get-lists-list-id-list-results-list-result-id-person.md) |
+| GET | `/lists/{list_id}/list_results/{list_result_id}/person/{person_id}` |  | [View](../operations/get-lists-list-id-list-results-list-result-id-person-person-id.md) |
+| DELETE | `/lists/{list_id}/list_results/{list_result_id}/person/{person_id}` |  | [View](../operations/delete-lists-list-id-list-results-list-result-id-person-person-id.md) |
+| PATCH | `/lists/{list_id}/list_results/{list_result_id}/person/{person_id}` |  | [View](../operations/patch-lists-list-id-list-results-list-result-id-person-person-id.md) |
 | POST | `/lists/{list_id}/mailchimp_sync` |  | [View](../operations/post-lists-list-id-mailchimp-sync.md) |
 | GET | `/lists/{list_id}/mailchimp_sync_status` |  | [View](../operations/get-lists-list-id-mailchimp-sync-status.md) |
 | GET | `/lists/{list_id}/mailchimp_sync_status/{mailchimp_sync_status_id}` |  | [View](../operations/get-lists-list-id-mailchimp-sync-status-mailchimp-sync-status-id.md) |

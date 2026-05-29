@@ -24,7 +24,7 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: created_at,expires_at,name,updated_at | No |  |
-| `can_query_by` | enum: created_at,kind,name,serial_number,updated_at,path_name,resource_folder_id | No |  |
+| `can_query_by` | enum: created_at,kind,name,serial_number,updated_at,path_name,resource_folder_id,id | No |  |
 
 #### `meta.parent`
 

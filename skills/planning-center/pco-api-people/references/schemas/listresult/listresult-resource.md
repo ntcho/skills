@@ -41,4 +41,5 @@
 |-------|------|----------|-------------|
 | `self` | string | No |  |
 | `html_url` | string | No |  |
+| `person` | string | No |  |
 

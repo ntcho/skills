@@ -63,6 +63,7 @@
 | `primary_campus` | string | No |  |
 | `school` | string | No |  |
 | `social_profiles` | string | No |  |
+| `workflow_assignee_workflow_summaries` | string | No |  |
 | `workflow_cards` | string | No |  |
 | `workflow_shares` | string | No |  |
 

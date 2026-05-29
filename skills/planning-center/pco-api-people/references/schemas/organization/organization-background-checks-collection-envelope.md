@@ -23,7 +23,9 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_filter` | enum: current | No |  |
+| `can_order_by` | enum: status_updated_at,expires_on | No |  |
+| `can_query_by` | enum: status_updated_at,expires_on | No |  |
+| `can_filter` | enum: expired,not_expired,awaiting_applicant,expired_invitation,report_processing,needs_review,complete_clear,complete_not_clear,canceled,current | No |  |
 
 #### `meta.parent`
 

@@ -4,6 +4,7 @@
 
 ## Values
 
+- `active_automations_count`
 - `auto_generated_name`
 - `auto_refresh`
 - `auto_refresh_frequency`

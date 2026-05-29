@@ -1,6 +1,6 @@
 # person Schemas
 
-58 schemas in this group.
+60 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
@@ -35,6 +35,7 @@
 | [person-primary-campus-resource-envelope](person-primary-campus-resource-envelope.md) | object |  |
 | [person-school-resource-envelope](person-school-resource-envelope.md) | object |  |
 | [person-social-profiles-resource-envelope](person-social-profiles-resource-envelope.md) | object |  |
+| [person-workflow-assignee-workflow-summaries-resource-envelope](person-workflow-assignee-workflow-summaries-resource-envelope.md) | object |  |
 | [person-workflow-cards-resource-envelope](person-workflow-cards-resource-envelope.md) | object |  |
 | [person-workflow-shares-resource-envelope](person-workflow-shares-resource-envelope.md) | object |  |
 | [person-addresses-collection-envelope](person-addresses-collection-envelope.md) | object |  |
@@ -60,5 +61,6 @@
 | [person-primary-campus-collection-envelope](person-primary-campus-collection-envelope.md) | object |  |
 | [person-school-collection-envelope](person-school-collection-envelope.md) | object |  |
 | [person-social-profiles-collection-envelope](person-social-profiles-collection-envelope.md) | object |  |
+| [person-workflow-assignee-workflow-summaries-collection-envelope](person-workflow-assignee-workflow-summaries-collection-envelope.md) | object |  |
 | [person-workflow-cards-collection-envelope](person-workflow-cards-collection-envelope.md) | object |  |
 | [person-workflow-shares-collection-envelope](person-workflow-shares-collection-envelope.md) | object |  |

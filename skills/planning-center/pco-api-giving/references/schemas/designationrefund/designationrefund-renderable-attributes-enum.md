@@ -6,3 +6,4 @@
 
 - `amount_cents`
 - `amount_currency`
+- `fee_cents`

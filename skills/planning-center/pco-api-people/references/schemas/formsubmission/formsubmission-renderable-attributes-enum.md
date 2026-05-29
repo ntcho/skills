@@ -6,4 +6,5 @@
 
 - `created_at`
 - `requires_verification`
+- `updated_at`
 - `verified`

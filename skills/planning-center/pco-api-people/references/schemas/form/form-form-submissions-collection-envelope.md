@@ -23,8 +23,8 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_order_by` | enum: created_at,person.last_name,person.first_name | No |  |
-| `can_query_by` | enum: submitter_name | No |  |
+| `can_order_by` | enum: created_at,updated_at,person.last_name,person.first_name | No |  |
+| `can_query_by` | enum: created_at,updated_at,submitter_name | No |  |
 
 #### `meta.parent`
 

@@ -32,7 +32,6 @@
 | DELETE | `/episodes/{episode_id}/series/{series_id}` |  | [View](../operations/delete-episodes-episode-id-series-series-id.md) |
 | PATCH | `/episodes/{episode_id}/series/{series_id}` |  | [View](../operations/patch-episodes-episode-id-series-series-id.md) |
 | GET | `/episodes/{episode_id}/speakerships` |  | [View](../operations/get-episodes-episode-id-speakerships.md) |
-| POST | `/episodes/{episode_id}/speakerships` |  | [View](../operations/post-episodes-episode-id-speakerships.md) |
 | GET | `/episodes/{episode_id}/speakerships/{speakership_id}` |  | [View](../operations/get-episodes-episode-id-speakerships-speakership-id.md) |
 | DELETE | `/episodes/{episode_id}/speakerships/{speakership_id}` |  | [View](../operations/delete-episodes-episode-id-speakerships-speakership-id.md) |
 | PATCH | `/episodes/{episode_id}/speakerships/{speakership_id}` |  | [View](../operations/patch-episodes-episode-id-speakerships-speakership-id.md) |

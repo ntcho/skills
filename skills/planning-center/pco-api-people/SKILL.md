@@ -18,9 +18,9 @@ This API documentation is split into multiple files for on-demand loading.
 **Directory structure:**
 ```
 references/
-├── resources/      # 36 resource index files
-├── operations/     # 506 operation detail files
-└── schemas/        # 82 schema groups, 632 schema files
+├── resources/      # 37 resource index files
+├── operations/     # 514 operation detail files
+└── schemas/        # 84 schema groups, 647 schema files
 ```
 
 **Navigation flow:**
@@ -39,8 +39,8 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 
 ## Resources
 
-- **Person** → `references/resources/Person.md` (132 ops) - A person record represents a single member/user of
-- **List** → `references/resources/List.md` (48 ops) - A list is a powerful tool for finding and grouping
+- **Person** → `references/resources/Person.md` (134 ops) - A person record represents a single member/user of
+- **List** → `references/resources/List.md` (52 ops) - A list is a powerful tool for finding and grouping
 - **Workflow** → `references/resources/Workflow.md` (38 ops) - A Workflow
 - **Form** → `references/resources/Form.md` (26 ops) - A custom form for people to fill out.
 - **Household** → `references/resources/Household.md` (22 ops) - A household links people together and can have a p
@@ -71,6 +71,7 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 - **App** → `references/resources/App.md` (2 ops) - An app is one of the handful of apps that Planning
 - **person_mergers** → `references/resources/person-mergers.md` (2 ops)
 - **SpamEmailAddress** → `references/resources/SpamEmailAddress.md` (2 ops) - An email address that is marked as spam
+- **WorkflowAssigneeSummary** → `references/resources/WorkflowAssigneeSummary.md` (2 ops) - Aggregated card counts for an assignee across all 
 - **default** → `references/resources/default.md` (1 ops)
 - **BirthdayPeople** → `references/resources/BirthdayPeople.md` (1 ops) - Returns upcoming birthdays for the organization.
 

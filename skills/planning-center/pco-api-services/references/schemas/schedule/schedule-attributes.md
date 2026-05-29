@@ -20,6 +20,7 @@ An instance of a PlanPerson with included data for displaying in a user's schedu
 | `plan_visible` | boolean | No | True if the scheduled Plan is visible to the scheduled Person |
 | `plan_visible_to_me` | boolean | No | True if the scheduled Plan is visible to the current Person |
 | `position_display_times` | string | No |  |
+| `reschedule_declines` | string | No |  |
 | `responds_to_name` | string | No |  |
 | `service_type_name` | string | No |  |
 | `short_dates` | string | No |  |

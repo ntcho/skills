@@ -10,6 +10,7 @@ A collection of sermons
 |-------|------|----------|-------------|
 | `activate_episode_minutes_before` | integer | No | The activation time for an episode, expressed in minutes before its start
  |
+| `archived` | boolean | No |  |
 | `art` | string | No | An image file object. When setting, pass an upload UUID from the Uploads API
 (https://api.planningcenteronline.com/docs/overview/file-uploads)
 or a signed_identifier from an existing File.

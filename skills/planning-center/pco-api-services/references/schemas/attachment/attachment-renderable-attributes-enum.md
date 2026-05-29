@@ -5,6 +5,7 @@
 ## Values
 
 - `allow_mp3_download`
+- `attachable_type`
 - `content`
 - `content_type`
 - `created_at`

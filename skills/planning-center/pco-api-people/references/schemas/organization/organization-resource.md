@@ -52,5 +52,6 @@
 | `spam_email_addresses` | string | No |  |
 | `stats` | string | No |  |
 | `tabs` | string | No |  |
+| `workflow_assignee_summaries` | string | No |  |
 | `workflows` | string | No |  |
 

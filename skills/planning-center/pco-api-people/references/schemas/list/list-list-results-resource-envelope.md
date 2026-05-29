@@ -7,6 +7,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `data` | [listresult_resource](listresult-resource.md) | No |  |
+| `included` | any[] | No |  |
 | `meta` | object | No |  |
 
 ## Nested Fields
@@ -15,6 +16,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `can_include` | enum: person | No |  |
 | `parent` | object | No |  |
 
 #### `meta.parent`

@@ -24,7 +24,7 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: name,position | No |  |
-| `can_filter` | enum: published,podcast_enabled | No |  |
+| `can_filter` | enum: archived,not_archived,published,podcast_enabled | No |  |
 
 #### `meta.parent`
 

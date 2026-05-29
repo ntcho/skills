@@ -25,6 +25,7 @@ A `Donation` record corresponds to a gift given to an `Organization` at a partic
  Possible values: `api`, `sms`, `mobile_app`, `web`, `admin`, or `other` |
 | `payment_check_dated_at` | string (date) | No | The check date for donations made by check. Example: `2000-01-01` |
 | `payment_check_number` | integer | No | The check number for donations made by check. |
+| `payment_identifier` | string | No |  |
 | `payment_last4` | string | No | The last 4 digits of a donation's payment method number. For cards, this is the last 4 digits of the card number. For bank accounts, this is the last 4 digits of the bank account number. For cash and check donations, this should be `null`. Note: In cases where we don't have all 4 digits on file, a `*` will be used to pad the number. For example: `*321` |
 | `payment_method` | string | No | Required. The payment method used to make a donation.
 

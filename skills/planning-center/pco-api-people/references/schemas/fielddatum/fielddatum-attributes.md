@@ -8,9 +8,11 @@ A field datum is an individual piece of data for a custom field.
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `created_at` | string (date-time) | No |  |
 | `file` | string | No |  |
 | `file_content_type` | string | No |  |
 | `file_name` | string | No |  |
 | `file_size` | integer | No |  |
+| `updated_at` | string (date-time) | No |  |
 | `value` | string | No |  |
 

@@ -13,6 +13,10 @@ A `Signup` is an organization signup that people can register for.
  |
 | `close_at` | string (date-time) | No | UTC time at which regsitration closes.
  |
+| `closed` | boolean | No | Whether the signup is currently closed to new registrations. A signup is
+closed when it is archived, has no `open_at`, has an `open_at` in the
+future, or has a `close_at` in the past.
+ |
 | `created_at` | string (date-time) | No |  |
 | `description` | string | No | Decription of the signup.
  |
@@ -21,6 +25,9 @@ A `Signup` is an organization signup that people can register for.
 | `name` | string | No | Name of the signup.
  |
 | `new_registration_url` | string | No | URL to allow people to register for signup.
+ |
+| `open` | boolean | No | Whether the signup is currently open to new registrations. Inverse of
+`closed`.
  |
 | `open_at` | string (date-time) | No | UTC time at which regsitration opens.
  |

@@ -23,7 +23,7 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_order_by` | enum: name,batch_completed_at,created_at,updated_at,campus_id,list_category_id,name_or_description,list_categories.name | No |  |
+| `can_order_by` | enum: name,batch_completed_at,created_at,updated_at,campus_id,list_category_id,name_or_description,auto_refresh_frequency,list_categories.name,campuses.name,refreshed_at,total_people,automations_count,active_automations_count,starred | No |  |
 | `can_query_by` | enum: name,batch_completed_at,created_at,updated_at,id | No |  |
 
 #### `meta.parent`
