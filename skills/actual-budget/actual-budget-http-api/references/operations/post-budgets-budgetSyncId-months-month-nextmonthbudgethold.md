@@ -10,6 +10,12 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `amount` | integer | Yes |  |
+
 ## Responses
 
 | Status | Description |

@@ -12,6 +12,14 @@ Actual Budget api says the addTransactions functionality returns a list of ids f
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `learnCategories` | boolean | No |  |
+| `runTransfers` | boolean | No |  |
+| `transactions` | Transaction[] | Yes |  |
+
 ## Responses
 
 | Status | Description |

@@ -10,6 +10,12 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `ActualQLquery` | [ActualQLquery](../schemas/Actual/ActualQLquery.md) | Yes |  |
+
 ## Responses
 
 | Status | Description |
@@ -17,6 +23,12 @@
 | 200 | The result of the query |
 | 400 | (reference) |
 | 500 | (reference) |
+
+**Success Response Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `data` | object | Yes |  |
 
 ## Security
 

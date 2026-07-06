@@ -12,6 +12,12 @@
 | 404 | (reference) |
 | 500 | (reference) |
 
+**Success Response Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `data` | [Account](../schemas/Account/Account.md) | Yes |  |
+
 ## Security
 
 - **apiKey**

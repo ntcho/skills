@@ -10,6 +10,19 @@ transferAccountId and transferCategoryId are optional if the balance of the acco
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `transfer` | object | No |  |
+
+**`transfer` fields:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `transferAccountId` | string | No |  |
+| `transferCategoryId` | string | No |  |
+
 ## Responses
 
 | Status | Description |

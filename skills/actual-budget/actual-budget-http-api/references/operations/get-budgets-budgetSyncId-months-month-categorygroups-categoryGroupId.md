@@ -13,6 +13,12 @@
 | 404 | (reference) |
 | 500 | (reference) |
 
+**Success Response Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `data` | [BudgetMonthCategoryGroup](../schemas/Budget/BudgetMonthCategoryGroup.md) | Yes |  |
+
 ## Security
 
 - **apiKey**

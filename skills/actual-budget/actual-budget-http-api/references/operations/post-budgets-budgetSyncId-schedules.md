@@ -10,6 +10,12 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `schedule` | [ScheduleInput](../schemas/Schedule/ScheduleInput.md) | Yes |  |
+
 ## Responses
 
 | Status | Description |
@@ -18,6 +24,12 @@
 | 400 | (reference) |
 | 404 | (reference) |
 | 500 | (reference) |
+
+**Success Response Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `data` | string | Yes | The ID of the created schedule |
 
 ## Security
 

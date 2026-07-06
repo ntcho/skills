@@ -10,6 +10,19 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `account` | object | Yes |  |
+
+**`account` fields:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `name` | string | Yes |  |
+| `offbudget` | boolean | Yes |  |
+
 ## Responses
 
 | Status | Description |

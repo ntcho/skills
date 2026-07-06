@@ -12,6 +12,20 @@ Moves money from one category to another for one specific month.<br> If the sour
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `categorytransfer` | object | Yes |  |
+
+**`categorytransfer` fields:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `fromCategoryId` | string | No |  |
+| `toCategoryId` | string | No |  |
+| `amount` | integer | No |  |
+
 ## Responses
 
 | Status | Description |

@@ -10,6 +10,12 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `transactions` | Transaction[] | Yes |  |
+
 ## Responses
 
 | Status | Description |
@@ -18,6 +24,19 @@
 | 400 | (reference) |
 | 404 | (reference) |
 | 500 | (reference) |
+
+**Success Response Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `data` | object | Yes |  |
+
+**`data` fields:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `added` | string[] | Yes |  |
+| `updated` | string[] | Yes |  |
 
 ## Security
 

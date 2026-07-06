@@ -12,6 +12,12 @@
 | 404 | (reference) |
 | 500 | (reference) |
 
+**Success Response Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `data` | [Category](../schemas/Category/Category.md) | Yes |  |
+
 ## Security
 
 - **apiKey**

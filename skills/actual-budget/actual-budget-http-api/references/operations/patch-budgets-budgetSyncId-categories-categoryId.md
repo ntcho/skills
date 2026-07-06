@@ -10,6 +10,12 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `category` | [Category](../schemas/Category/Category.md) | Yes |  |
+
 ## Responses
 
 | Status | Description |

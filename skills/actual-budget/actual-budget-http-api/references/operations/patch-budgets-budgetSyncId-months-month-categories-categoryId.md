@@ -10,6 +10,19 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `category` | object | Yes |  |
+
+**`category` fields:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `budgeted` | integer | No |  |
+| `carryover` | boolean | No |  |
+
 ## Responses
 
 | Status | Description |

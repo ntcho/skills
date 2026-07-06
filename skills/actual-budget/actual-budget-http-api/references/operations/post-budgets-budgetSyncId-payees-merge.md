@@ -10,6 +10,13 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `targetId` | string | Yes | The id of the payee to retain |
+| `mergeIds` | string[] | Yes | The ids of the payees to merge into the target |
+
 ## Responses
 
 | Status | Description |

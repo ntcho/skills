@@ -10,6 +10,12 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `transactionIds` | string[] | Yes |  |
+
 ## Responses
 
 | Status | Description |

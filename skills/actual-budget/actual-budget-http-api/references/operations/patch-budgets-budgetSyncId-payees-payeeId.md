@@ -10,6 +10,12 @@
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `payee` | [Payee](../schemas/Payee/Payee.md) | Yes |  |
+
 ## Responses
 
 | Status | Description |

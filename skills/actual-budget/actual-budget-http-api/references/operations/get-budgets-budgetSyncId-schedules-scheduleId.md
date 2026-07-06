@@ -12,6 +12,12 @@
 | 404 | (reference) |
 | 500 | (reference) |
 
+**Success Response Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `data` | [Schedule](../schemas/Schedule/Schedule.md) | Yes |  |
+
 ## Security
 
 - **apiKey**
