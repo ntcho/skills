@@ -9,6 +9,7 @@
 - `description`
 - `featured`
 - `image_url`
+- `link_only`
 - `name`
 - `percent_approved`
 - `percent_rejected`

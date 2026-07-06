@@ -23,6 +23,9 @@ the event, visibility on Church Center and a public-facing summary.
 - `false` indicates the event is not featured on Church Center
  |
 | `image_url` | string | No | Path to where the event image is stored |
+| `link_only` | boolean | No | - `true` indicates the event is published to Church Center through the link only
+- `false` indicates the event is published to Church Center normally
+ |
 | `name` | string | No | The name of the event |
 | `percent_approved` | integer | No | Calculated by taking the sum of the `percent_approved` for all
 future `ReservationBlocks` and dividing that by the `count` of all future

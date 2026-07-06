@@ -25,7 +25,7 @@
 | `next` | object | No |  |
 | `can_order_by` | enum: title,episodes_count,started_at,ended_at | No |  |
 | `can_query_by` | enum: id,search | No |  |
-| `can_filter` | enum: published,not_published | No |  |
+| `can_filter` | enum: published,not_published,published_on_church_center | No |  |
 
 #### `meta.parent`
 

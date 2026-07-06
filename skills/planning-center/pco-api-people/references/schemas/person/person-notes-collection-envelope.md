@@ -24,7 +24,7 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: note,created_at,updated_at,display_date,id,note_category_id | No |  |
-| `can_query_by` | enum: note,note_category_id | No |  |
+| `can_query_by` | enum: note,created_at,updated_at,note_category_id | No |  |
 
 #### `meta.parent`
 

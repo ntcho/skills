@@ -48,6 +48,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `self` | string | No |  |
+| `import` | string | No |  |
 | `item_reorder` | string | No |  |
 | `items` | string | No |  |
 | `notes` | string | No |  |

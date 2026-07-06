@@ -16,6 +16,7 @@ A song
 | GET | `/songs/{song_id}/arrangements/{arrangement_id}` |  | [View](../operations/get-songs-song-id-arrangements-arrangement-id.md) |
 | DELETE | `/songs/{song_id}/arrangements/{arrangement_id}` |  | [View](../operations/delete-songs-song-id-arrangements-arrangement-id.md) |
 | PATCH | `/songs/{song_id}/arrangements/{arrangement_id}` |  | [View](../operations/patch-songs-song-id-arrangements-arrangement-id.md) |
+| POST | `/songs/{song_id}/arrangements/{arrangement_id}/archive` |  | [View](../operations/post-songs-song-id-arrangements-arrangement-id-archive.md) |
 | POST | `/songs/{song_id}/arrangements/{arrangement_id}/assign_tags` |  | [View](../operations/post-songs-song-id-arrangements-arrangement-id-assign-tags.md) |
 | GET | `/songs/{song_id}/arrangements/{arrangement_id}/attachments` |  | [View](../operations/get-songs-song-id-arrangements-arrangement-id-attachments.md) |
 | POST | `/songs/{song_id}/arrangements/{arrangement_id}/attachments` |  | [View](../operations/post-songs-song-id-arrangements-arrangement-id-attachments.md) |
@@ -35,6 +36,7 @@ A song
 | GET | `/songs/{song_id}/arrangements/{arrangement_id}/sections` |  | [View](../operations/get-songs-song-id-arrangements-arrangement-id-sections.md) |
 | GET | `/songs/{song_id}/arrangements/{arrangement_id}/tags` |  | [View](../operations/get-songs-song-id-arrangements-arrangement-id-tags.md) |
 | GET | `/songs/{song_id}/arrangements/{arrangement_id}/tags/{tag_id}` |  | [View](../operations/get-songs-song-id-arrangements-arrangement-id-tags-tag-id.md) |
+| POST | `/songs/{song_id}/arrangements/{arrangement_id}/unarchive` |  | [View](../operations/post-songs-song-id-arrangements-arrangement-id-unarchive.md) |
 | POST | `/songs/{song_id}/assign_tags` |  | [View](../operations/post-songs-song-id-assign-tags.md) |
 | GET | `/songs/{song_id}/attachments` |  | [View](../operations/get-songs-song-id-attachments.md) |
 | POST | `/songs/{song_id}/attachments` |  | [View](../operations/post-songs-song-id-attachments.md) |
@@ -51,3 +53,7 @@ A song
 | GET | `/songs/{song_id}/song_schedules/{song_schedule_id}` |  | [View](../operations/get-songs-song-id-song-schedules-song-schedule-id.md) |
 | GET | `/songs/{song_id}/tags` |  | [View](../operations/get-songs-song-id-tags.md) |
 | GET | `/songs/{song_id}/tags/{tag_id}` |  | [View](../operations/get-songs-song-id-tags-tag-id.md) |
+| GET | `/songs/{song_id}/unscoped_arrangements` |  | [View](../operations/get-songs-song-id-unscoped-arrangements.md) |
+| GET | `/songs/{song_id}/unscoped_arrangements/{unscoped_arrangement_id}` |  | [View](../operations/get-songs-song-id-unscoped-arrangements-unscoped-arrangement-id.md) |
+| DELETE | `/songs/{song_id}/unscoped_arrangements/{unscoped_arrangement_id}` |  | [View](../operations/delete-songs-song-id-unscoped-arrangements-unscoped-arrangement-id.md) |
+| PATCH | `/songs/{song_id}/unscoped_arrangements/{unscoped_arrangement_id}` |  | [View](../operations/patch-songs-song-id-unscoped-arrangements-unscoped-arrangement-id.md) |

@@ -17,7 +17,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_include` | enum: options | No |  |
+| `can_include` | enum: form_field_conditions,options | No |  |
 | `parent` | object | No |  |
 | `total_count` | integer | No |  |
 | `count` | integer | No |  |

@@ -15,6 +15,7 @@
 - `first_name`
 - `gender`
 - `has_access`
+- `has_full_access_to_any_calendar`
 - `last_name`
 - `member_of_approval_groups`
 - `middle_name`

@@ -18,3 +18,4 @@
 - `reassigned_to_name`
 - `subject`
 - `type`
+- `updated_at`

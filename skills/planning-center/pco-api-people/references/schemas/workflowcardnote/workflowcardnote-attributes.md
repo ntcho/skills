@@ -10,4 +10,5 @@ Workflow Note is a note that has been made on a Workflow Card
 |-------|------|----------|-------------|
 | `created_at` | string (date-time) | No |  |
 | `note` | string | No |  |
+| `updated_at` | string (date-time) | No |  |
 

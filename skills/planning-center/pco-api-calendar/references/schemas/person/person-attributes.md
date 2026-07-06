@@ -23,6 +23,10 @@ This can include an array of `email_addresses`, `addresses` and `phone_numbers`
 | `first_name` | string | No | The person's first name |
 | `gender` | string | No | `M` indicates male, `F` indicates female |
 | `has_access` | boolean | No | Indicates whether the person has access to Calendar |
+| `has_full_access_to_any_calendar` | boolean | No | Indicates whether the person has full (not limited, event-level-only) access to at least one calendar
+
+
+Only available when requested with the `?fields` param |
 | `last_name` | string | No | The person's last name |
 | `member_of_approval_groups` | boolean | No | Indicates whether the person is a member of at least one approval group
 

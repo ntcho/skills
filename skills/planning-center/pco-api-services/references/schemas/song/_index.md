@@ -1,6 +1,6 @@
 # song Schemas
 
-15 schemas in this group.
+17 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
@@ -14,8 +14,10 @@
 | [song-last-scheduled-item-resource-envelope](song-last-scheduled-item-resource-envelope.md) | object |  |
 | [song-song-schedules-resource-envelope](song-song-schedules-resource-envelope.md) | object |  |
 | [song-tags-resource-envelope](song-tags-resource-envelope.md) | object |  |
+| [song-unscoped-arrangements-resource-envelope](song-unscoped-arrangements-resource-envelope.md) | object |  |
 | [song-arrangements-collection-envelope](song-arrangements-collection-envelope.md) | object |  |
 | [song-attachments-collection-envelope](song-attachments-collection-envelope.md) | object |  |
 | [song-last-scheduled-item-collection-envelope](song-last-scheduled-item-collection-envelope.md) | object |  |
 | [song-song-schedules-collection-envelope](song-song-schedules-collection-envelope.md) | object |  |
 | [song-tags-collection-envelope](song-tags-collection-envelope.md) | object |  |
+| [song-unscoped-arrangements-collection-envelope](song-unscoped-arrangements-collection-envelope.md) | object |  |

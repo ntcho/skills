@@ -27,6 +27,7 @@ A Service Type is a container for plans.
 | GET | `/service_types/{service_type_id}/plan_person_times/{plan_person_time_id}` |  | [View](../operations/get-service-types-service-type-id-plan-person-times-plan-person-time-id.md) |
 | GET | `/service_types/{service_type_id}/plan_templates` |  | [View](../operations/get-service-types-service-type-id-plan-templates.md) |
 | GET | `/service_types/{service_type_id}/plan_templates/{plan_template_id}` |  | [View](../operations/get-service-types-service-type-id-plan-templates-plan-template-id.md) |
+| POST | `/service_types/{service_type_id}/plan_templates/{plan_template_id}/import` |  | [View](../operations/post-service-types-service-type-id-plan-templates-plan-template-id-import.md) |
 | POST | `/service_types/{service_type_id}/plan_templates/{plan_template_id}/item_reorder` |  | [View](../operations/post-service-types-service-type-id-plan-templates-plan-template-id-item-reorder.md) |
 | GET | `/service_types/{service_type_id}/plan_templates/{plan_template_id}/items` |  | [View](../operations/get-service-types-service-type-id-plan-templates-plan-template-id-items.md) |
 | POST | `/service_types/{service_type_id}/plan_templates/{plan_template_id}/items` |  | [View](../operations/post-service-types-service-type-id-plan-templates-plan-template-id-items.md) |
@@ -75,7 +76,7 @@ A Service Type is a container for plans.
 | POST | `/service_types/{service_type_id}/plans/{plan_id}/autoschedule` |  | [View](../operations/post-service-types-service-type-id-plans-plan-id-autoschedule.md) |
 | GET | `/service_types/{service_type_id}/plans/{plan_id}/contributors` |  | [View](../operations/get-service-types-service-type-id-plans-plan-id-contributors.md) |
 | GET | `/service_types/{service_type_id}/plans/{plan_id}/contributors/{contributor_id}` |  | [View](../operations/get-service-types-service-type-id-plans-plan-id-contributors-contributor-id.md) |
-| POST | `/service_types/{service_type_id}/plans/{plan_id}/import_template` |  | [View](../operations/post-service-types-service-type-id-plans-plan-id-import-template.md) |
+| POST | `/service_types/{service_type_id}/plans/{plan_id}/import` |  | [View](../operations/post-service-types-service-type-id-plans-plan-id-import.md) |
 | POST | `/service_types/{service_type_id}/plans/{plan_id}/item_reorder` |  | [View](../operations/post-service-types-service-type-id-plans-plan-id-item-reorder.md) |
 | GET | `/service_types/{service_type_id}/plans/{plan_id}/items` |  | [View](../operations/get-service-types-service-type-id-plans-plan-id-items.md) |
 | POST | `/service_types/{service_type_id}/plans/{plan_id}/items` |  | [View](../operations/post-service-types-service-type-id-plans-plan-id-items.md) |

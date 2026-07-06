@@ -19,8 +19,8 @@ This API documentation is split into multiple files for on-demand loading.
 ```
 references/
 ├── resources/      # 37 resource index files
-├── operations/     # 514 operation detail files
-└── schemas/        # 84 schema groups, 647 schema files
+├── operations/     # 520 operation detail files
+└── schemas/        # 85 schema groups, 663 schema files
 ```
 
 **Navigation flow:**
@@ -42,7 +42,7 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 - **Person** → `references/resources/Person.md` (134 ops) - A person record represents a single member/user of
 - **List** → `references/resources/List.md` (52 ops) - A list is a powerful tool for finding and grouping
 - **Workflow** → `references/resources/Workflow.md` (38 ops) - A Workflow
-- **Form** → `references/resources/Form.md` (26 ops) - A custom form for people to fill out.
+- **Form** → `references/resources/Form.md` (32 ops) - A custom form for people to fill out.
 - **Household** → `references/resources/Household.md` (22 ops) - A household links people together and can have a p
 - **FieldDatum** → `references/resources/FieldDatum.md` (20 ops) - A field datum is an individual piece of data for a
 - **NoteCategory** → `references/resources/NoteCategory.md` (20 ops) - A Note Category

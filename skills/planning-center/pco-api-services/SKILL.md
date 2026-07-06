@@ -19,8 +19,8 @@ This API documentation is split into multiple files for on-demand loading.
 ```
 references/
 ├── resources/      # 13 resource index files
-├── operations/     # 430 operation detail files
-└── schemas/        # 82 schema groups, 611 schema files
+├── operations/     # 437 operation detail files
+└── schemas/        # 83 schema groups, 616 schema files
 ```
 
 **Navigation flow:**
@@ -39,9 +39,9 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 
 ## Resources
 
-- **ServiceType** → `references/resources/ServiceType.md` (186 ops) - A Service Type is a container for plans.
+- **ServiceType** → `references/resources/ServiceType.md` (187 ops) - A Service Type is a container for plans.
 - **Person** → `references/resources/Person.md` (85 ops) - A person added to Planning Center Services.
-- **Song** → `references/resources/Song.md` (45 ops) - A song
+- **Song** → `references/resources/Song.md` (51 ops) - A song
 - **Series** → `references/resources/Series.md` (34 ops) - A Series can be specified for each plan to tie pla
 - **Media** → `references/resources/Media.md` (24 ops) - A piece of media
 - **Team** → `references/resources/Team.md` (18 ops) - A Team within a Service Type.

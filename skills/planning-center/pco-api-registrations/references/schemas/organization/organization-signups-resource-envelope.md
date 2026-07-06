@@ -16,7 +16,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_include` | enum: campuses,categories,next_signup_time,signup_location,signup_times | No |  |
+| `can_include` | enum: campuses,categories,next_signup_time,selection_types,signup_location,signup_times | No |  |
 | `parent` | object | No |  |
 
 #### `meta.parent`

@@ -24,6 +24,7 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: name,position | No |  |
+| `can_query_by` | enum: search | No |  |
 
 #### `meta.parent`
 

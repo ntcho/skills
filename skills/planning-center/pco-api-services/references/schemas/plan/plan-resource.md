@@ -94,7 +94,7 @@
 | `attendances` | string | No |  |
 | `autoschedule` | string | No |  |
 | `contributors` | string | No |  |
-| `import_template` | string | No |  |
+| `import` | string | No |  |
 | `item_reorder` | string | No |  |
 | `items` | string | No |  |
 | `live` | string | No |  |

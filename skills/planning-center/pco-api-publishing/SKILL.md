@@ -19,7 +19,7 @@ This API documentation is split into multiple files for on-demand loading.
 ```
 references/
 ├── resources/      # 4 resource index files
-├── operations/     # 76 operation detail files
+├── operations/     # 77 operation detail files
 └── schemas/        # 26 schema groups, 118 schema files
 ```
 
@@ -39,7 +39,7 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 
 ## Resources
 
-- **Episode** → `references/resources/Episode.md` (33 ops)
+- **Episode** → `references/resources/Episode.md` (34 ops)
 - **Channel** → `references/resources/Channel.md` (31 ops) - A collection of sermons
 - **Series** → `references/resources/Series.md` (10 ops)
 - **Speaker** → `references/resources/Speaker.md` (2 ops)

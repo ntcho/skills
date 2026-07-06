@@ -7,6 +7,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `data` | [designation_resource](designation-resource.md) | No |  |
+| `included` | any[] | No |  |
 | `meta` | object | No |  |
 
 ## Nested Fields
@@ -15,6 +16,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `can_include` | enum: fund | No |  |
 | `parent` | object | No |  |
 
 #### `meta.parent`

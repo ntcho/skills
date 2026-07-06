@@ -8,6 +8,7 @@
 - `canceled`
 - `complete`
 - `created_at`
+- `name`
 - `updated_at`
 - `waitlisted`
 - `waitlisted_at`

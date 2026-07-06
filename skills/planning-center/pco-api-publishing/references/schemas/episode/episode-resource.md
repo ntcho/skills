@@ -35,6 +35,7 @@
 | `channel` | string | No |  |
 | `episode_resources` | string | No |  |
 | `episode_times` | string | No |  |
+| `generate_download_url` | string | No |  |
 | `note_template` | string | No |  |
 | `notes` | string | No |  |
 | `series` | string | No |  |

@@ -17,7 +17,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_include` | enum: event_instance,event_resource_request,resource | No |  |
+| `can_include` | enum: event_resource_request,resource | No |  |
 | `parent` | object | No |  |
 | `total_count` | integer | No |  |
 | `count` | integer | No |  |

@@ -6,6 +6,7 @@
 
 - `display_times`
 - `group_key`
+- `plan_title`
 - `position_name`
 - `sort_date`
 - `sort_index`

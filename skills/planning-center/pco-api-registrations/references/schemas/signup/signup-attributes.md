@@ -11,6 +11,10 @@ A `Signup` is an organization signup that people can register for.
 |-------|------|----------|-------------|
 | `archived` | boolean | No | Whether the signup is archived or not.
  |
+| `at_maximum_capacity` | boolean | No | Whether the signup has reached its signup-level maximum capacity.
+
+
+Only available when requested with the `?fields` param |
 | `close_at` | string (date-time) | No | UTC time at which regsitration closes.
  |
 | `closed` | boolean | No | Whether the signup is currently closed to new registrations. A signup is
@@ -21,6 +25,9 @@ future, or has a `close_at` in the past.
 | `description` | string | No | Decription of the signup.
  |
 | `logo_url` | string | No | URL for the image used for the signup.
+ |
+| `maximum_capacity` | integer | No | Maximum number of attendees this signup can hold across all selection types.
+`null` when there is no signup-level capacity limit.
  |
 | `name` | string | No | Name of the signup.
  |

@@ -23,7 +23,7 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_query_by` | enum: approval_status,created_at,featured,name,feed_id,percent_approved,percent_rejected,updated_at,visible_in_church_center | No |  |
+| `can_query_by` | enum: approval_status,created_at,featured,link_only,name,feed_id,percent_approved,percent_rejected,updated_at,visible_in_church_center | No |  |
 | `can_filter` | enum: future | No |  |
 
 #### `meta.parent`

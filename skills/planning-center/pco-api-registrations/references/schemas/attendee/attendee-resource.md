@@ -18,6 +18,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `self` | string | No |  |
+| `html_url` | string | No |  |
 | `emergency_contact` | string | No |  |
 | `person` | string | No |  |
 | `registration` | string | No |  |

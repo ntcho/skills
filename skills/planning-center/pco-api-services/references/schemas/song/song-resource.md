@@ -24,4 +24,5 @@
 | `last_scheduled_item` | string | No |  |
 | `song_schedules` | string | No |  |
 | `tags` | string | No |  |
+| `unscoped_arrangements` | string | No |  |
 

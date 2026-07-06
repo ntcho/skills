@@ -10,6 +10,7 @@
 - `live_starts_at`
 - `name`
 - `recorded`
+- `scheduled_team_ids`
 - `starts_at`
 - `team_reminders`
 - `time_type`

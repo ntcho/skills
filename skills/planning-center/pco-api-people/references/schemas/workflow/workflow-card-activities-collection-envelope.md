@@ -21,7 +21,8 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_order_by` | enum: id | No |  |
+| `can_order_by` | enum: updated_at,created_at,id | No |  |
+| `can_query_by` | enum: updated_at,created_at | No |  |
 
 #### `meta.parent`
 

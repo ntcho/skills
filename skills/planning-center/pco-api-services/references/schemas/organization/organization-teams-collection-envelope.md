@@ -24,7 +24,7 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: name,created_at,updated_at | No |  |
-| `can_query_by` | enum: name,service_type_id | No |  |
+| `can_query_by` | enum: id,name,service_type_id | No |  |
 | `can_filter` | enum: editable,service_types | No |  |
 
 #### `meta.parent`

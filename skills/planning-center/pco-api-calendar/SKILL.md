@@ -1,6 +1,6 @@
 ---
 name: pco-api-calendar
-description: Reserve rooms, publish event calendars, and revolutionize the way you allocate your church’s resources.. Use when working with the Planning Center Calendar or when the user needs to interact with this API.
+description: Reserve rooms, publish event calendars, and revolutionize the way you allocate your church's resources.. Use when working with the Planning Center Calendar or when the user needs to interact with this API.
 metadata:
   api-version: "2022-07-07"
   openapi-version: "3.1.1"
@@ -9,7 +9,7 @@ metadata:
 
 # Planning Center Calendar
 
-Reserve rooms, publish event calendars, and revolutionize the way you allocate your church’s resources.
+Reserve rooms, publish event calendars, and revolutionize the way you allocate your church's resources.
 
 ## How to Use This Skill
 
@@ -19,8 +19,8 @@ This API documentation is split into multiple files for on-demand loading.
 ```
 references/
 ├── resources/      # 17 resource index files
-├── operations/     # 190 operation detail files
-└── schemas/        # 39 schema groups, 273 schema files
+├── operations/     # 188 operation detail files
+└── schemas/        # 39 schema groups, 271 schema files
 ```
 
 **Navigation flow:**
@@ -53,9 +53,9 @@ If the event i
 - **TagGroup** → `references/resources/TagGroup.md` (12 ops) - A grouping of tags for organizational purposes.
 
 - **Conflict** → `references/resources/Conflict.md` (10 ops) - A conflict between two events caused by overlappin
-- **ResourceBooking** → `references/resources/ResourceBooking.md` (10 ops) - A specific booking of a room or resource for an ev
 - **RoomSetup** → `references/resources/RoomSetup.md` (10 ops) - A diagram and list of suggested resources useful f
 - **ResourceFolder** → `references/resources/ResourceFolder.md` (9 ops) - An organizational folder containing rooms or resou
+- **ResourceBooking** → `references/resources/ResourceBooking.md` (8 ops) - A specific booking of a room or resource for an ev
 - **Person** → `references/resources/Person.md` (7 ops) - The people in your organization with access to Cal
 - **ReportTemplate** → `references/resources/ReportTemplate.md` (5 ops) - A template for generating a report.
 

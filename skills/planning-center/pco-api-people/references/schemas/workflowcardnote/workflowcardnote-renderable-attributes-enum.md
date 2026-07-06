@@ -6,3 +6,4 @@
 
 - `created_at`
 - `note`
+- `updated_at`

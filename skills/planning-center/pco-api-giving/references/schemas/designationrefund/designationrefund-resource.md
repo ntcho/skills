@@ -19,8 +19,16 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `designation` | object | No |  |
+| `fund` | object | No |  |
 
 #### `relationships.designation`
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `links` | object | No |  |
+| `data` | object | No |  |
+
+#### `relationships.fund`
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|

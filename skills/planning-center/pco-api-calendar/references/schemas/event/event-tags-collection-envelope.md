@@ -24,7 +24,7 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: name,position | No |  |
-| `can_query_by` | enum: church_center_category,color,created_at,name,position,updated_at,id | No |  |
+| `can_query_by` | enum: church_center_category,color,created_at,name,position,updated_at,id,tag_group_id | No |  |
 
 #### `meta.parent`
 

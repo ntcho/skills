@@ -23,5 +23,4 @@
 | `time_zone` | string | No |  |
 | `geolocation_set_manually` | boolean | No |  |
 | `name` | string | No |  |
-| `avatar` | string | No |  |
 

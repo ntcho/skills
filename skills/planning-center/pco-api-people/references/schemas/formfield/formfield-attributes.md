@@ -11,6 +11,7 @@ A field in a custom form.
 | `created_at` | string (date-time) | No |  |
 | `description` | string | No |  |
 | `field_type` | string | No | Possible values: `string`, `text`, `checkboxes`, `dropdown`, `date`, `phone_number`, `address`, `birthday`, `gender`, `custom_field`, `note`, `workflow`, `heading`, `number`, `boolean`, `file`, `medical`, `workflow_checkbox`, `workflow_checkboxes`, `workflow_dropdown`, `marital_status`, `anniversary`, `grade`, `primary_campus`, `school`, or `household` |
+| `fieldable_status` | string | No |  |
 | `label` | string | No |  |
 | `required` | boolean | No |  |
 | `sequence` | integer | No |  |

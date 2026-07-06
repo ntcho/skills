@@ -18,6 +18,10 @@ An `Attendee` is a person registered for a signup.
 
 Only available when requested with the `?fields` param |
 | `created_at` | string (date-time) | No |  |
+| `name` | string | No | The attendee's name. Derived from the associated person record.
+
+
+Only available when requested with the `?fields` param |
 | `updated_at` | string (date-time) | No |  |
 | `waitlisted` | boolean | No | Whether or not the attendee is waitlisted.
  |

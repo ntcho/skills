@@ -56,5 +56,6 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `self` | string | No |  |
+| `form_field_conditions` | string | No |  |
 | `options` | string | No |  |
 

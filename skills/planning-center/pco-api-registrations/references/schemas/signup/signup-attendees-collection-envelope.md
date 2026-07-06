@@ -23,6 +23,8 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
+| `can_order_by` | enum: created_at | No |  |
+| `can_query_by` | enum: registration_id | No |  |
 | `can_filter` | enum: active,waitlist,canceled | No |  |
 
 #### `meta.parent`

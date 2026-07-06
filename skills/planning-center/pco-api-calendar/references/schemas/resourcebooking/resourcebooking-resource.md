@@ -48,7 +48,6 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `self` | string | No |  |
-| `event_instance` | string | No |  |
 | `event_resource_request` | string | No |  |
 | `resource` | string | No |  |
 

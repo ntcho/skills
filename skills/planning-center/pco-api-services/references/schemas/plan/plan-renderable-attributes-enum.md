@@ -19,6 +19,7 @@
 - `planning_center_url`
 - `prefers_order_view`
 - `public`
+- `public_by_schedule`
 - `rehearsable`
 - `rehearsal_time_count`
 - `reminders_disabled`

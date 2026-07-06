@@ -7,6 +7,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `data` | designation_resource[] | No |  |
+| `included` | any[] | No |  |
 | `meta` | object | No |  |
 | `links` | object | No |  |
 
@@ -16,6 +17,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `can_include` | enum: fund | No |  |
 | `parent` | object | No |  |
 | `total_count` | integer | No |  |
 | `count` | integer | No |  |

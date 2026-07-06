@@ -18,9 +18,9 @@ This API documentation is split into multiple files for on-demand loading.
 **Directory structure:**
 ```
 references/
-├── resources/      # 3 resource index files
-├── operations/     # 34 operation detail files
-└── schemas/        # 24 schema groups, 86 schema files
+├── resources/      # 6 resource index files
+├── operations/     # 41 operation detail files
+└── schemas/        # 24 schema groups, 92 schema files
 ```
 
 **Navigation flow:**
@@ -39,6 +39,9 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 
 ## Resources
 
-- **Signup** → `references/resources/Signup.md` (30 ops) - A `Signup` is an organization signup that people c
+- **Signup** → `references/resources/Signup.md` (18 ops) - A `Signup` is an organization signup that people c
+- **Attendee** → `references/resources/Attendee.md` (10 ops) - An `Attendee` is a person registered for a signup.
+- **Registration** → `references/resources/Registration.md` (6 ops)
+- **Person** → `references/resources/Person.md` (3 ops)
 - **Campus** → `references/resources/Campus.md` (2 ops) - A `Campus` is a location belonging to an Organizat
 - **Category** → `references/resources/Category.md` (2 ops) - A `Category` is a label used to group together and

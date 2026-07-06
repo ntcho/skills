@@ -5,3 +5,4 @@
 ## Values
 
 - `designation`
+- `fund`

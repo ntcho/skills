@@ -48,9 +48,11 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `self` | string | No |  |
+| `archive` | string | No |  |
 | `assign_tags` | string | No |  |
 | `attachments` | string | No |  |
 | `keys` | string | No |  |
 | `sections` | string | No |  |
 | `tags` | string | No |  |
+| `unarchive` | string | No |  |
 

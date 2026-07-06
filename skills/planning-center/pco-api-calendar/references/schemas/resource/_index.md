@@ -1,6 +1,6 @@
 # resource Schemas
 
-40 schemas in this group.
+38 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
@@ -14,7 +14,6 @@
 | [resource-approval-group-people-resource-envelope](resource-approval-group-people-resource-envelope.md) | object |  |
 | [resource-approval-group-required-approvals-resource-envelope](resource-approval-group-required-approvals-resource-envelope.md) | object |  |
 | [resource-approval-group-resources-resource-envelope](resource-approval-group-resources-resource-envelope.md) | object |  |
-| [resource-booking-event-instance-resource-envelope](resource-booking-event-instance-resource-envelope.md) | object |  |
 | [resource-booking-event-resource-request-resource-envelope](resource-booking-event-resource-request-resource-envelope.md) | object |  |
 | [resource-booking-resource-resource-envelope](resource-booking-resource-resource-envelope.md) | object |  |
 | [resource-conflicts-resource-envelope](resource-conflicts-resource-envelope.md) | object |  |
@@ -31,7 +30,6 @@
 | [resource-approval-group-people-collection-envelope](resource-approval-group-people-collection-envelope.md) | object |  |
 | [resource-approval-group-required-approvals-collection-envelope](resource-approval-group-required-approvals-collection-envelope.md) | object |  |
 | [resource-approval-group-resources-collection-envelope](resource-approval-group-resources-collection-envelope.md) | object |  |
-| [resource-booking-event-instance-collection-envelope](resource-booking-event-instance-collection-envelope.md) | object |  |
 | [resource-booking-event-resource-request-collection-envelope](resource-booking-event-resource-request-collection-envelope.md) | object |  |
 | [resource-booking-resource-collection-envelope](resource-booking-resource-collection-envelope.md) | object |  |
 | [resource-conflicts-collection-envelope](resource-conflicts-collection-envelope.md) | object |  |

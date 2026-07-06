@@ -10,6 +10,7 @@ Available positions to sign up for
 |-------|------|----------|-------------|
 | `display_times` | string | No |  |
 | `group_key` | string | No |  |
+| `plan_title` | string | No |  |
 | `position_name` | string | No |  |
 | `sort_date` | string (date-time) | No |  |
 | `sort_index` | integer | No |  |

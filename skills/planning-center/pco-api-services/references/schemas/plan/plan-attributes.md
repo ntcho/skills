@@ -23,6 +23,7 @@ A single plan within a Service Type.
 | `planning_center_url` | string | No |  |
 | `prefers_order_view` | boolean | No |  |
 | `public` | boolean | No | True if Public Access has been enabled. |
+| `public_by_schedule` | boolean | No | True if the plan is currently auto-published because the Service Type has scheduled publish enabled and the plan's service date has arrived in the organization's timezone. |
 | `rehearsable` | boolean | No |  |
 | `rehearsal_time_count` | integer | No |  |
 | `reminders_disabled` | boolean | No |  |

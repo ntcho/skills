@@ -24,6 +24,7 @@
 | GET | `/episodes/{episode_id}/episode_times/{episode_time_id}` |  | [View](../operations/get-episodes-episode-id-episode-times-episode-time-id.md) |
 | DELETE | `/episodes/{episode_id}/episode_times/{episode_time_id}` |  | [View](../operations/delete-episodes-episode-id-episode-times-episode-time-id.md) |
 | PATCH | `/episodes/{episode_id}/episode_times/{episode_time_id}` |  | [View](../operations/patch-episodes-episode-id-episode-times-episode-time-id.md) |
+| POST | `/episodes/{episode_id}/generate_download_url` |  | [View](../operations/post-episodes-episode-id-generate-download-url.md) |
 | GET | `/episodes/{episode_id}/note_template` |  | [View](../operations/get-episodes-episode-id-note-template.md) |
 | PATCH | `/episodes/{episode_id}/note_template` |  | [View](../operations/patch-episodes-episode-id-note-template.md) |
 | GET | `/episodes/{episode_id}/series` |  | [View](../operations/get-episodes-episode-id-series.md) |

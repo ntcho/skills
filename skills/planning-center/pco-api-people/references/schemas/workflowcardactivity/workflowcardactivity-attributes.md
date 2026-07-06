@@ -22,4 +22,5 @@ Workflow Card Activity is a record of an action performed on a card
 | `reassigned_to_name` | string | No |  |
 | `subject` | string | No |  |
 | `type` | string | No |  |
+| `updated_at` | string (date-time) | No |  |
 

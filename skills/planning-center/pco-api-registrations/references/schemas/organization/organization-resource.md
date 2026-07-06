@@ -18,7 +18,10 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `self` | string | No |  |
+| `attendees` | string | No |  |
 | `campuses` | string | No |  |
 | `categories` | string | No |  |
+| `people` | string | No |  |
+| `registrations` | string | No |  |
 | `signups` | string | No |  |
 

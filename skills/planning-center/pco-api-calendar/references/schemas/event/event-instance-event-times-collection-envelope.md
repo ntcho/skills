@@ -24,7 +24,7 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: starts_at,ends_at | No |  |
-| `can_query_by` | enum: starts_at,ends_at,name,visible_on_kiosks,visible_on_widget_and_ical | No |  |
+| `can_query_by` | enum: starts_at,ends_at,visible_on_kiosks,visible_on_widget_and_ical | No |  |
 
 #### `meta.parent`
 
