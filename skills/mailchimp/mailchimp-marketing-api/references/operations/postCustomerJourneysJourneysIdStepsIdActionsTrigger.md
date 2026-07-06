@@ -19,6 +19,12 @@ A step trigger in an Automation flow. To use it, create a starting point or step
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `email_address` | string | Yes | The list member's email address. |
+
 ## Responses
 
 | Status | Description |

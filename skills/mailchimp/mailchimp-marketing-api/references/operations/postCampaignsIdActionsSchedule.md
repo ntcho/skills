@@ -18,6 +18,21 @@ Schedule a campaign for delivery. If you're using Multivariate Campaigns to test
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `schedule_time` | string (date-time) | Yes | The UTC date and time to schedule the campaign for delivery in ISO 8601 format. Campaigns may only be scheduled to send on the quarter-hour (:00, :15, :30, :45). |
+| `timewarp` | boolean | No | Choose whether the campaign should use [Timewarp](https://mailchimp.com/help/use-timewarp/) when sending. Campaigns scheduled with Timewarp are localized based on the recipients' time zones. For example, a Timewarp campaign with a `schedule_time` of 13:00 will be sent to each recipient at 1:00pm in their local time. Cannot be set to `true` for campaigns using [Batch Delivery](https://mailchimp.com/help/schedule-batch-delivery/). |
+| `batch_delivery` | object | No | Choose whether the campaign should use [Batch Delivery](https://mailchimp.com/help/schedule-batch-delivery/). Cannot be set to `true` for campaigns using [Timewarp](https://mailchimp.com/help/use-timewarp/). |
+
+**`batch_delivery` fields:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `batch_delay` | integer | Yes | The delay, in minutes, between batches. |
+| `batch_count` | integer | Yes | The number of batches for the campaign send. |
+
 ## Responses
 
 | Status | Description |

@@ -17,7 +17,7 @@ This API documentation is split into multiple files for on-demand loading.
 ```
 references/
 ├── resources/      # 30 resource index files
-├── operations/     # 296 operation detail files
+├── operations/     # 298 operation detail files
 └── schemas/        # 0 schema groups, 0 schema files
 ```
 
@@ -47,11 +47,11 @@ Supported methods: **basicAuth**. See `references/authentication.md` for details
 - **sms-campaigns** → `references/resources/sms-campaigns.md` (10 ops)
 - **contacts** → `references/resources/contacts.md` (8 ops)
 - **landingPages** → `references/resources/landingPages.md` (8 ops)
+- **connectedSites** → `references/resources/connectedSites.md` (7 ops)
 - **templates** → `references/resources/templates.md` (6 ops)
 - **batchWebhooks** → `references/resources/batchWebhooks.md` (5 ops)
 - **templateFolders** → `references/resources/templateFolders.md` (5 ops)
 - **campaignFolders** → `references/resources/campaignFolders.md` (5 ops)
-- **connectedSites** → `references/resources/connectedSites.md` (5 ops)
 - **verifiedDomains** → `references/resources/verifiedDomains.md` (5 ops)
 - **audiences** → `references/resources/audiences.md` (4 ops)
 - **batches** → `references/resources/batches.md` (4 ops)

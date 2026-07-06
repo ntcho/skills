@@ -19,6 +19,20 @@ Add or remove tags from a list member. If a tag that does not exist is passed in
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `tags` | object[] | Yes | A list of tags assigned to the list member. |
+| `is_syncing` | boolean | No | When is_syncing is true, automations based on the tags in the request will not fire |
+
+**`tags` fields:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `name` | string | Yes | The name of the tag. |
+| `status` | enum: inactive, active | Yes | The status for the tag on the member, pass in active to add a tag or inactive to remove it. |
+
 ## Responses
 
 | Status | Description |

@@ -9,3 +9,5 @@
 | GET | `/connected-sites/{connected_site_id}` | Get connected site | [View](../operations/getConnectedSitesId.md) |
 | DELETE | `/connected-sites/{connected_site_id}` | Delete connected site | [View](../operations/deleteConnectedSitesId.md) |
 | POST | `/connected-sites/{connected_site_id}/actions/verify-script-installation` | Verify connected site script | [View](../operations/postConnectedSitesIdActionsVerifyScriptInstallation.md) |
+| POST | `/connected-sites/{connected_site_id}/actions/enable-pixel` | Enable pixel for connected site | [View](../operations/postConnectedSitesIdActionsEnablePixel.md) |
+| POST | `/connected-sites/{connected_site_id}/actions/disable-pixel` | Disable pixel for connected site | [View](../operations/postConnectedSitesIdActionsDisablePixel.md) |

@@ -18,6 +18,12 @@ Schedule an SMS campaign to send at a specific time.
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `schedule_time` | string (date-time) | Yes | The UTC date and time to schedule the campaign to send. |
+
 ## Responses
 
 | Status | Description |

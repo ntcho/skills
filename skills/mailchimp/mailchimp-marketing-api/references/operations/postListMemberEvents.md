@@ -19,6 +19,15 @@ Add an event for a list member.
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `name` | string | Yes | The name for this type of event ('purchased', 'visited', etc). Must be 2-30 characters in length |
+| `properties` | object | No | An optional list of properties |
+| `is_syncing` | boolean | No | Events created with the is_syncing value set to `true` will not trigger automations. |
+| `occurred_at` | string (date-time) | No | The date and time the event occurred in ISO 8601 format. |
+
 ## Responses
 
 | Status | Description |

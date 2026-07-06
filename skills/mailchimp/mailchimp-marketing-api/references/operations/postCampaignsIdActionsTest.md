@@ -18,6 +18,13 @@ Send a test email.
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `test_emails` | string[] | Yes | An array of email addresses to send the test email to. |
+| `send_type` | enum: html, plaintext | Yes | Choose the type of test email to send. |
+
 ## Responses
 
 | Status | Description |
