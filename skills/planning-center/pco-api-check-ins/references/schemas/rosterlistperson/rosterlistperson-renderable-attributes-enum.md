@@ -9,6 +9,7 @@
 - `first_name`
 - `gender`
 - `grade`
+- `ignore_filters`
 - `last_name`
 - `medical_notes`
 - `name`

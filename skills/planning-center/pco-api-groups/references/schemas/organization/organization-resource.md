@@ -19,10 +19,12 @@
 |-------|------|----------|-------------|
 | `self` | string | No |  |
 | `campuses` | string | No |  |
+| `event_notes` | string | No |  |
 | `events` | string | No |  |
 | `group_applications` | string | No |  |
 | `group_types` | string | No |  |
 | `groups` | string | No |  |
+| `memberships` | string | No |  |
 | `people` | string | No |  |
 | `person_permissions` | string | No |  |
 | `tag_groups` | string | No |  |

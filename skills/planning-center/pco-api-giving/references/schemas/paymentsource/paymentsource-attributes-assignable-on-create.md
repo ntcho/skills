@@ -10,7 +10,7 @@
 | `status` | string | No | The status of the payment source. Can be either `active` or `archived`. `active` payment sources can be assigned to donations, while `archived` payment sources cannot. Payment sources are `active` by default upon creation. Archiving a payment source will keep all historical records intact and can be undone.
 
 Possible values: `active` or `archived` |
-| `payment_source_type` | string | No | For more info on payment source types, please refer to our [documentation on creating a payment source](https://pcogiving.zendesk.com/hc/en-us/articles/115012277207-Payment-Sources#create-the-payment-source-1).
+| `payment_source_type` | string | No | For more info on payment source types, please refer to our [documentation on creating a payment source](https://help.planningcenter.com/en/138389-create-and-manage-payment-sources.html).
 
 
 

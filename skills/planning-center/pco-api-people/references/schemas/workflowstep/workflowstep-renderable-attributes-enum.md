@@ -4,9 +4,12 @@
 
 ## Values
 
+- `action_type`
 - `auto_snooze_days`
+- `auto_snooze_entry_hour`
 - `auto_snooze_interval`
 - `auto_snooze_value`
+- `auto_snooze_wake_hour`
 - `created_at`
 - `default_assignee_id`
 - `description`

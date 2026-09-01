@@ -24,7 +24,7 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: created_at,updated_at,starts_at,ends_at | No |  |
-| `can_query_by` | enum: created_at,ends_at,event_name,kind,starts_at,tag_ids,updated_at | No |  |
+| `can_query_by` | enum: calendar_ids,created_at,ends_at,event_name,kind,starts_at,tag_ids,updated_at | No |  |
 | `can_filter` | enum: future | No |  |
 
 #### `meta.parent`

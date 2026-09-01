@@ -23,8 +23,8 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_order_by` | enum: updated_at | No |  |
-| `can_query_by` | enum: updated_at | No |  |
+| `can_order_by` | enum: updated_at,committed_at | No |  |
+| `can_query_by` | enum: updated_at,committed_at | No |  |
 | `can_filter` | enum: committed,in_progress | No |  |
 
 #### `meta.parent`

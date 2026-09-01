@@ -13,6 +13,7 @@
 - `assigned_to_rehearsal_team`
 - `birthdate`
 - `can_edit_all_people`
+- `can_search`
 - `can_view_all_people`
 - `created_at`
 - `facebook_id`

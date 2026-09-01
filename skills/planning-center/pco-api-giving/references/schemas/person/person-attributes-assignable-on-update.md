@@ -6,5 +6,5 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `donor_number` | integer | No | The donor number for a person, if applicable. See our product documentation for more information on [donor numbers](https://pcogiving.zendesk.com/hc/en-us/articles/360012298634-donor-numbers). |
+| `donor_number` | integer | No | The donor number for a person, if applicable. See our product documentation for more information on [donor numbers](https://help.planningcenter.com/en/138370-donor-numbers.html#138370-donor-numbers). |
 

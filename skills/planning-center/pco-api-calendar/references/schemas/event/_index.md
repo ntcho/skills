@@ -1,6 +1,6 @@
 # event Schemas
 
-48 schemas in this group.
+50 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
@@ -13,6 +13,7 @@ May contain information such as who own |
 | [event-renderable-attributes-enum](event-renderable-attributes-enum.md) | enum |  |
 | [event-resource](event-resource.md) | object |  |
 | [event-attachments-resource-envelope](event-attachments-resource-envelope.md) | object |  |
+| [event-calendar-resource-envelope](event-calendar-resource-envelope.md) | object |  |
 | [event-conflicts-resource-envelope](event-conflicts-resource-envelope.md) | object |  |
 | [event-event-connections-resource-envelope](event-event-connections-resource-envelope.md) | object |  |
 | [event-event-instances-resource-envelope](event-event-instances-resource-envelope.md) | object |  |
@@ -34,6 +35,7 @@ May contain information such as who own |
 | [event-tags-resource-envelope](event-tags-resource-envelope.md) | object |  |
 | [event-time-event-resource-envelope](event-time-event-resource-envelope.md) | object |  |
 | [event-attachments-collection-envelope](event-attachments-collection-envelope.md) | object |  |
+| [event-calendar-collection-envelope](event-calendar-collection-envelope.md) | object |  |
 | [event-conflicts-collection-envelope](event-conflicts-collection-envelope.md) | object |  |
 | [event-event-connections-collection-envelope](event-event-connections-collection-envelope.md) | object |  |
 | [event-event-instances-collection-envelope](event-event-instances-collection-envelope.md) | object |  |

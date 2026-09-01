@@ -14,6 +14,8 @@ the event, visibility on Church Center and a public-facing summary.
 | GET | `/events/{event_id}` |  | [View](../operations/get-events-event-id.md) |
 | GET | `/events/{event_id}/attachments` |  | [View](../operations/get-events-event-id-attachments.md) |
 | GET | `/events/{event_id}/attachments/{attachment_id}` |  | [View](../operations/get-events-event-id-attachments-attachment-id.md) |
+| GET | `/events/{event_id}/calendar` |  | [View](../operations/get-events-event-id-calendar.md) |
+| GET | `/events/{event_id}/calendar/{calendar_id}` |  | [View](../operations/get-events-event-id-calendar-calendar-id.md) |
 | GET | `/events/{event_id}/conflicts` |  | [View](../operations/get-events-event-id-conflicts.md) |
 | GET | `/events/{event_id}/conflicts/{conflict_id}` |  | [View](../operations/get-events-event-id-conflicts-conflict-id.md) |
 | GET | `/events/{event_id}/event_connections` |  | [View](../operations/get-events-event-id-event-connections.md) |

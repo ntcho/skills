@@ -17,7 +17,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_include` | enum: attachments,feed,owner,tags | No |  |
+| `can_include` | enum: attachments,calendar,feed,owner,tags | No |  |
 | `parent` | object | No |  |
 | `total_count` | integer | No |  |
 | `count` | integer | No |  |

@@ -11,6 +11,7 @@
 - `child`
 - `contact_data`
 - `created_at`
+- `event_administrator`
 - `event_permissions_type`
 - `first_name`
 - `gender`

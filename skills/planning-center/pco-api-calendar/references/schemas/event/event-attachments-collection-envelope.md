@@ -23,8 +23,8 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_order_by` | enum: content_type,created_at,description,file_size,name,updated_at | No |  |
-| `can_query_by` | enum: content_type,created_at,description,file_size,name,updated_at | No |  |
+| `can_order_by` | enum: content_type,created_at,description,file_size,kind,name,updated_at | No |  |
+| `can_query_by` | enum: content_type,created_at,description,file_size,kind,name,updated_at | No |  |
 
 #### `meta.parent`
 

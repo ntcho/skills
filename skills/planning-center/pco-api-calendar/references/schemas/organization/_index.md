@@ -1,6 +1,6 @@
 # organization Schemas
 
-39 schemas in this group.
+41 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
@@ -10,6 +10,7 @@
 | [organization-renderable-attributes-enum](organization-renderable-attributes-enum.md) | enum |  |
 | [organization-resource](organization-resource.md) | object |  |
 | [organization-attachments-resource-envelope](organization-attachments-resource-envelope.md) | object |  |
+| [organization-calendars-resource-envelope](organization-calendars-resource-envelope.md) | object |  |
 | [organization-conflicts-resource-envelope](organization-conflicts-resource-envelope.md) | object |  |
 | [organization-event-instances-resource-envelope](organization-event-instances-resource-envelope.md) | object |  |
 | [organization-event-resource-requests-resource-envelope](organization-event-resource-requests-resource-envelope.md) | object |  |
@@ -27,6 +28,7 @@
 | [organization-tag-groups-resource-envelope](organization-tag-groups-resource-envelope.md) | object |  |
 | [organization-tags-resource-envelope](organization-tags-resource-envelope.md) | object |  |
 | [organization-attachments-collection-envelope](organization-attachments-collection-envelope.md) | object |  |
+| [organization-calendars-collection-envelope](organization-calendars-collection-envelope.md) | object |  |
 | [organization-conflicts-collection-envelope](organization-conflicts-collection-envelope.md) | object |  |
 | [organization-event-instances-collection-envelope](organization-event-instances-collection-envelope.md) | object |  |
 | [organization-event-resource-requests-collection-envelope](organization-event-resource-requests-collection-envelope.md) | object |  |

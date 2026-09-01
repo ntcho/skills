@@ -42,6 +42,7 @@
 | `self` | string | No |  |
 | `html_url` | string | No |  |
 | `attachments` | string | No |  |
+| `calendar` | string | No |  |
 | `conflicts` | string | No |  |
 | `event_connections` | string | No |  |
 | `event_instances` | string | No |  |

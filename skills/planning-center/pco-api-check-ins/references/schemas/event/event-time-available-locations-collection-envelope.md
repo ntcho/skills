@@ -24,7 +24,6 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: kind,name,position | No |  |
-| `can_filter` | enum: for_current_station | No |  |
 
 #### `meta.parent`
 

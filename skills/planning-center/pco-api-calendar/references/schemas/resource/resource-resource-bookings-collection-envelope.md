@@ -25,7 +25,7 @@
 | `next` | object | No |  |
 | `can_order_by` | enum: created_at,ends_at,starts_at,updated_at | No |  |
 | `can_query_by` | enum: created_at,ends_at,starts_at,updated_at | No |  |
-| `can_filter` | enum: future,approved,pending,rejected,approved_pending,approved_rejected,pending_rejected,approved_pending_rejected | No |  |
+| `can_filter` | enum: future,approved,pending,rejected,approved_pending,approved_rejected,pending_rejected,approved_pending_rejected,conflict,approved_conflict,pending_conflict,rejected_conflict,approved_pending_conflict,approved_rejected_conflict,pending_rejected_conflict,approved_pending_rejected_conflict | No |  |
 
 #### `meta.parent`
 

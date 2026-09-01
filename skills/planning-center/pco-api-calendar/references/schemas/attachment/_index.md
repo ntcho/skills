@@ -4,7 +4,7 @@
 
 | Schema | Type | Description |
 |--------|------|-------------|
-| [attachment-attributes](attachment-attributes.md) | object | An uploaded file attached to an event.
+| [attachment-attributes](attachment-attributes.md) | object | A file or external link attached to an event.
  |
 | [attachment-relationships-and-includes-enum](attachment-relationships-and-includes-enum.md) | enum |  |
 | [attachment-renderable-attributes-enum](attachment-renderable-attributes-enum.md) | enum |  |

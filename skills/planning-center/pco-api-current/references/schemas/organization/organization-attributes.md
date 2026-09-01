@@ -8,4 +8,5 @@
 |-------|------|----------|-------------|
 | `name` | string | No |  |
 | `subdomain` | string | No |  |
+| `time_zone` | string | No |  |
 

@@ -10,4 +10,6 @@
 | `connected_at` | string (date-time) | No |  |
 | `first_name` | string | No |  |
 | `last_name` | string | No |  |
+| `scopes` | any[] | No |  |
+| `site_administrator` | boolean | No |  |
 

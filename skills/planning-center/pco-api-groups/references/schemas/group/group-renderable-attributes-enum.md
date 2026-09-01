@@ -12,6 +12,7 @@
 - `created_at`
 - `description`
 - `description_as_plain_text`
+- `direct_messages_enabled`
 - `events_listed`
 - `events_visibility`
 - `header_image`

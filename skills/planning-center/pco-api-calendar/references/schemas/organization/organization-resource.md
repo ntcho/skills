@@ -19,6 +19,7 @@
 |-------|------|----------|-------------|
 | `self` | string | No |  |
 | `attachments` | string | No |  |
+| `calendars` | string | No |  |
 | `conflicts` | string | No |  |
 | `event_instances` | string | No |  |
 | `event_resource_requests` | string | No |  |

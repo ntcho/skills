@@ -22,10 +22,12 @@
 | `batches` | string | No |  |
 | `campuses` | string | No |  |
 | `donations` | string | No |  |
+| `donor_summaries` | string | No |  |
 | `funds` | string | No |  |
 | `in_kind_donations` | string | No |  |
 | `labels` | string | No |  |
 | `payment_sources` | string | No |  |
 | `people` | string | No |  |
+| `pledge_campaigns` | string | No |  |
 | `recurring_donations` | string | No |  |
 

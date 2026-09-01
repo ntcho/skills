@@ -4,6 +4,7 @@
 
 ## Values
 
+- `awaiting_automation`
 - `calculated_due_at`
 - `calculated_due_at_in_days_ago`
 - `completed_at`

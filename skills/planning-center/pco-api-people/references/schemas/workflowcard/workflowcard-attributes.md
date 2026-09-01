@@ -8,6 +8,7 @@ A Card
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `awaiting_automation` | boolean | No |  |
 | `calculated_due_at` | string (date-time) | No |  |
 | `calculated_due_at_in_days_ago` | integer | No |  |
 | `completed_at` | string (date-time) | No |  |

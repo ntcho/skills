@@ -13,7 +13,7 @@ A donation's `PaymentSource` refers to the platform it originated from.
 |-------|------|----------|-------------|
 | `created_at` | string (date-time) | No | The date and time at which a payment source was created. Example: `2000-01-01T12:00:00Z` |
 | `name` | string | No | Required. The name of a payment source. Must be unique within the associated organization. |
-| `payment_source_type` | string | No | For more info on payment source types, please refer to our [documentation on creating a payment source](https://pcogiving.zendesk.com/hc/en-us/articles/115012277207-Payment-Sources#create-the-payment-source-1).
+| `payment_source_type` | string | No | For more info on payment source types, please refer to our [documentation on creating a payment source](https://help.planningcenter.com/en/138389-create-and-manage-payment-sources.html).
 
 
 

@@ -21,7 +21,7 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
-| `can_order_by` | enum: name,last_updated | No |  |
+| `can_order_by` | enum: name,last_updated,pinned | No |  |
 | `can_filter` | enum: leaders | No |  |
 
 #### `meta.parent`

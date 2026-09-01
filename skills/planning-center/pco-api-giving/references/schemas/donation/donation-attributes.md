@@ -4,6 +4,13 @@ A `Donation` record corresponds to a gift given to an `Organization` at a partic
 
 `Donation`s are added by first associating them to a `Batch` of donations, and then committing the `Batch`. When adding a `Donation` to an already-committed `Batch`, the `Donation` will automatically be committed as well, and immediately added to the donor's online history.
 
+#### Totals
+
+On donation collection endpoints, pass `?with_totals=true` to add the received total to the response `meta`. It respects any `where[...]` filters and is unaffected by pagination. Totals are not available when filtering by `fund_id`.
+
+- `received_total_amount_cents`: the total received, excluding refunded and failed donations.
+- `currency`: the currency of the totals above, based on the organization's currency.
+
 
 **Type:** object
 

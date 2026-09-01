@@ -23,6 +23,7 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
+| `can_query_by` | enum: status,fund_id | No |  |
 
 #### `meta.parent`
 

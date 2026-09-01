@@ -8,6 +8,7 @@
 - `created_at`
 - `description`
 - `file_size`
+- `kind`
 - `name`
 - `updated_at`
 - `url`

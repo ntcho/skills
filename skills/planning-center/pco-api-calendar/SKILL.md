@@ -18,9 +18,9 @@ This API documentation is split into multiple files for on-demand loading.
 **Directory structure:**
 ```
 references/
-├── resources/      # 17 resource index files
-├── operations/     # 188 operation detail files
-└── schemas/        # 39 schema groups, 271 schema files
+├── resources/      # 18 resource index files
+├── operations/     # 194 operation detail files
+└── schemas/        # 40 schema groups, 282 schema files
 ```
 
 **Navigation flow:**
@@ -39,10 +39,10 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 
 ## Resources
 
-- **Resource** → `references/resources/Resource.md` (27 ops) - A room or resource that can be requested for use a
-- **Event** → `references/resources/Event.md` (26 ops) - An event.
+- **Event** → `references/resources/Event.md` (28 ops) - An event.
 
 May contain information such as who own
+- **Resource** → `references/resources/Resource.md` (27 ops) - A room or resource that can be requested for use a
 - **EventResourceRequest** → `references/resources/EventResourceRequest.md` (18 ops) - A room or resource request for a specific event.
 
 - **ResourceApprovalGroup** → `references/resources/ResourceApprovalGroup.md` (16 ops) - A group of people that can be attached to a room o
@@ -59,7 +59,9 @@ If the event i
 - **Person** → `references/resources/Person.md` (7 ops) - The people in your organization with access to Cal
 - **ReportTemplate** → `references/resources/ReportTemplate.md` (5 ops) - A template for generating a report.
 
-- **Attachment** → `references/resources/Attachment.md` (4 ops) - An uploaded file attached to an event.
+- **Attachment** → `references/resources/Attachment.md` (4 ops) - A file or external link attached to an event.
+
+- **Calendar** → `references/resources/Calendar.md` (4 ops) - Calendars associated with an Organization.
 
 - **ResourceQuestion** → `references/resources/ResourceQuestion.md` (4 ops) - A question to answer when requesting to book a roo
 - **Feed** → `references/resources/Feed.md` (2 ops) - A feed belonging to an organization.

@@ -36,6 +36,8 @@ where potential members can ask questions before joining the group.
  |
 | `description_as_plain_text` | string | No | The plain text version of the group description.
  |
+| `direct_messages_enabled` | boolean | No | A boolean representing whether or not direct messages are enabled for the group.
+ |
 | `events_listed` | boolean | No | Whether or not events are visible to the public on Church Center
  |
 | `events_visibility` | string | No | The visibility of events for the group.

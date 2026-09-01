@@ -22,7 +22,5 @@ either physical or virtual.
 | GET | `/events/{event_id}/location/{location_id}/group/{group_id}` |  | [View](../operations/get-events-event-id-location-location-id-group-group-id.md) |
 | PATCH | `/events/{event_id}/location/{location_id}/group/{group_id}` |  | [View](../operations/patch-events-event-id-location-location-id-group-group-id.md) |
 | GET | `/events/{event_id}/notes` |  | [View](../operations/get-events-event-id-notes.md) |
-| GET | `/events/{event_id}/notes/{event_note_id}/owner` |  | [View](../operations/get-events-event-id-notes-event-note-id-owner.md) |
-| GET | `/events/{event_id}/notes/{event_note_id}/owner/{owner_id}` |  | [View](../operations/get-events-event-id-notes-event-note-id-owner-owner-id.md) |
 | GET | `/events/{event_id}/notes/{note_id}` |  | [View](../operations/get-events-event-id-notes-note-id.md) |
 | GET | `/events/{event_id}/rsvps` |  | [View](../operations/get-events-event-id-rsvps.md) |

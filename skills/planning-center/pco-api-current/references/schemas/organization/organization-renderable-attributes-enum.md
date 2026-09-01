@@ -6,3 +6,4 @@
 
 - `name`
 - `subdomain`
+- `time_zone`

@@ -10,6 +10,7 @@
 - `default_prepare_notifications`
 - `default_status`
 - `deleted_at`
+- `direct_messages_enabled`
 - `last_plan_from`
 - `name`
 - `rehearsal_team`

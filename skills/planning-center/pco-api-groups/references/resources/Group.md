@@ -30,11 +30,6 @@ A group of people that meet together regularly.
 | GET | `/groups/{group_id}/memberships/{membership_id}` |  | [View](../operations/get-groups-group-id-memberships-membership-id.md) |
 | DELETE | `/groups/{group_id}/memberships/{membership_id}` |  | [View](../operations/delete-groups-group-id-memberships-membership-id.md) |
 | PATCH | `/groups/{group_id}/memberships/{membership_id}` |  | [View](../operations/patch-groups-group-id-memberships-membership-id.md) |
-| GET | `/groups/{group_id}/memberships/{membership_id}/group` |  | [View](../operations/get-groups-group-id-memberships-membership-id-group.md) |
-| GET | `/groups/{group_id}/memberships/{membership_id}/group/{group_id}` |  | [View](../operations/get-groups-group-id-memberships-membership-id-group-group-id.md) |
-| PATCH | `/groups/{group_id}/memberships/{membership_id}/group/{group_id}` |  | [View](../operations/patch-groups-group-id-memberships-membership-id-group-group-id.md) |
-| GET | `/groups/{group_id}/memberships/{membership_id}/person` |  | [View](../operations/get-groups-group-id-memberships-membership-id-person.md) |
-| GET | `/groups/{group_id}/memberships/{membership_id}/person/{person_id}` |  | [View](../operations/get-groups-group-id-memberships-membership-id-person-person-id.md) |
 | GET | `/groups/{group_id}/my_membership` |  | [View](../operations/get-groups-group-id-my-membership.md) |
 | GET | `/groups/{group_id}/my_membership/{my_membership_id}` |  | [View](../operations/get-groups-group-id-my-membership-my-membership-id.md) |
 | DELETE | `/groups/{group_id}/my_membership/{my_membership_id}` |  | [View](../operations/delete-groups-group-id-my-membership-my-membership-id.md) |

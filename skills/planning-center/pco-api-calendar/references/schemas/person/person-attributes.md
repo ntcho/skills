@@ -19,6 +19,10 @@ The people in your organization with access to Calendar.
 This can include an array of `email_addresses`, `addresses` and `phone_numbers`
  |
 | `created_at` | string (date-time) | No | UTC time at which the person was created |
+| `event_administrator` | boolean | No | Indicates whether the person is an Event Administrator, and therefore has access to every calendar
+
+
+Only available when requested with the `?fields` param |
 | `event_permissions_type` | string | No | Event permissions for the person |
 | `first_name` | string | No | The person's first name |
 | `gender` | string | No | `M` indicates male, `F` indicates female |

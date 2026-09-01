@@ -20,9 +20,9 @@ This API documentation is split into multiple files for on-demand loading.
 **Directory structure:**
 ```
 references/
-├── resources/      # 7 resource index files
-├── operations/     # 102 operation detail files
-└── schemas/        # 30 schema groups, 168 schema files
+├── resources/      # 9 resource index files
+├── operations/     # 108 operation detail files
+└── schemas/        # 30 schema groups, 172 schema files
 ```
 
 **Navigation flow:**
@@ -41,15 +41,19 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 
 ## Resources
 
-- **Group** → `references/resources/Group.md` (41 ops) - A group of people that meet together regularly.
+- **Group** → `references/resources/Group.md` (36 ops) - A group of people that meet together regularly.
 
-- **Event** → `references/resources/Event.md` (18 ops) - An event is a meeting of a group. It has a start a
+- **Event** → `references/resources/Event.md` (16 ops) - An event is a meeting of a group. It has a start a
 - **GroupType** → `references/resources/GroupType.md` (13 ops) - A group type is a category of groups.
 For example,
 - **Person** → `references/resources/Person.md` (12 ops) - A person is a user of Planning Center.
 They can be
 - **GroupApplication** → `references/resources/GroupApplication.md` (9 ops) - A group application is a request to join a group w
+- **Membership** → `references/resources/Membership.md` (9 ops) - The state of a `Person` belonging to a `Group`.
+
+A
 - **Campus** → `references/resources/Campus.md` (5 ops) - A campus as defined in Planning Center Accounts
 
+- **EventNote** → `references/resources/EventNote.md` (4 ops) - Notes that group leaders can write for an event, g
 - **TagGroup** → `references/resources/TagGroup.md` (4 ops) - A way to group related tags.
 For example you could

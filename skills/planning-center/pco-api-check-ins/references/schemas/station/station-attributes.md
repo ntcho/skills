@@ -21,6 +21,8 @@ and print labels for itself or other stations.
 | `next_shows_at` | string (date-time) | No | Only available when requested with the `?fields` param |
 | `online` | boolean | No | Only available when requested with the `?fields` param |
 | `open_for_check_in` | boolean | No | Only available when requested with the `?fields` param |
+| `seconds_until_closes_at` | integer | No | Only available when requested with the `?fields` param |
+| `seconds_until_next_shows_at` | integer | No | Only available when requested with the `?fields` param |
 | `timeout_seconds` | integer | No |  |
 | `updated_at` | string (date-time) | No |  |
 

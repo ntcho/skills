@@ -18,9 +18,9 @@ This API documentation is split into multiple files for on-demand loading.
 **Directory structure:**
 ```
 references/
-├── resources/      # 10 resource index files
-├── operations/     # 152 operation detail files
-└── schemas/        # 35 schema groups, 207 schema files
+├── resources/      # 12 resource index files
+├── operations/     # 162 operation detail files
+└── schemas/        # 37 schema groups, 217 schema files
 ```
 
 **Navigation flow:**
@@ -39,15 +39,17 @@ Supported methods: **oauth2**, **personal_access_token**. See `references/authen
 
 ## Resources
 
-- **Person** → `references/resources/Person.md` (48 ops) - A Planning Center `Person` record that has been ad
-- **Donation** → `references/resources/Donation.md` (23 ops) - A `Donation` record corresponds to a gift given to
+- **Person** → `references/resources/Person.md` (40 ops) - A Planning Center `Person` record that has been ad
+- **Donation** → `references/resources/Donation.md` (24 ops) - A `Donation` record corresponds to a gift given to
 - **Batch** → `references/resources/Batch.md` (18 ops) - A `Batch` is a collection of `Donation`s. When cre
 - **BatchGroup** → `references/resources/BatchGroup.md` (14 ops) - A `BatchGroup` is a collection of `Batch`es.
 
 `Bat
 - **InKindDonation** → `references/resources/InKindDonation.md` (14 ops) - An `InKindDonation` record represents a non-cash g
+- **PledgeCampaign** → `references/resources/PledgeCampaign.md` (13 ops) - A `PledgeCampaign` is a way to request and track l
 - **RecurringDonation** → `references/resources/RecurringDonation.md` (10 ops) - A `RecurringDonation` is represents a `Donation` t
 - **PaymentSource** → `references/resources/PaymentSource.md` (9 ops) - A donation's `PaymentSource` refers to the platfor
 - **Campus** → `references/resources/Campus.md` (6 ops) - A `Campus` that has been added to your `Organizati
 - **Fund** → `references/resources/Fund.md` (5 ops) - A `Fund` is a way of tracking the intent of `Donat
 - **Label** → `references/resources/Label.md` (5 ops) - A `Label` is a way for Admins to manage and catego
+- **DonorSummary** → `references/resources/DonorSummary.md` (4 ops) - A donor and their aggregate giving to an `Organiza

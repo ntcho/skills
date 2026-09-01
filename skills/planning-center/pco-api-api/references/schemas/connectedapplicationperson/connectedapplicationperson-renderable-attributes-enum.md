@@ -8,3 +8,5 @@
 - `connected_at`
 - `first_name`
 - `last_name`
+- `scopes`
+- `site_administrator`

@@ -44,14 +44,6 @@ The `Person` object in Planning Center is so crucial that we have an entire prod
 | GET | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}` |  | [View](../operations/get-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id.md) |
 | DELETE | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}` |  | [View](../operations/delete-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id.md) |
 | PATCH | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}` |  | [View](../operations/patch-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id.md) |
-| GET | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}/fund` |  | [View](../operations/get-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id-fund.md) |
-| GET | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}/fund/{fund_id}` |  | [View](../operations/get-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id-fund-fund-id.md) |
-| DELETE | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}/fund/{fund_id}` |  | [View](../operations/delete-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id-fund-fund-id.md) |
-| PATCH | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}/fund/{fund_id}` |  | [View](../operations/patch-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id-fund-fund-id.md) |
-| GET | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}/pledges` |  | [View](../operations/get-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id-pledges.md) |
-| GET | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}/pledges/{pledge_id}` |  | [View](../operations/get-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id-pledges-pledge-id.md) |
-| DELETE | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}/pledges/{pledge_id}` |  | [View](../operations/delete-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id-pledges-pledge-id.md) |
-| PATCH | `/people/{person_id}/pledges/{pledge_id}/pledge_campaign/{pledge_campaign_id}/pledges/{pledge_id}` |  | [View](../operations/patch-people-person-id-pledges-pledge-id-pledge-campaign-pledge-campaign-id-pledges-pledge-id.md) |
 | GET | `/people/{person_id}/primary_campus` |  | [View](../operations/get-people-person-id-primary-campus.md) |
 | GET | `/people/{person_id}/primary_campus/{primary_campus_id}` |  | [View](../operations/get-people-person-id-primary-campus-primary-campus-id.md) |
 | GET | `/people/{person_id}/recurring_donations` |  | [View](../operations/get-people-person-id-recurring-donations.md) |

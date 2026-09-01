@@ -14,6 +14,7 @@ A Team within a Service Type.
 | `default_prepare_notifications` | boolean | No |  |
 | `default_status` | string | No |  |
 | `deleted_at` | string (date-time) | No |  |
+| `direct_messages_enabled` | boolean | No | Whether direct messages are enabled for this team in Chat. |
 | `last_plan_from` | string | No |  |
 | `name` | string | No |  |
 | `rehearsal_team` | boolean | No |  |

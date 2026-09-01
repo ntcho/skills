@@ -14,5 +14,7 @@
 - `next_shows_at`
 - `online`
 - `open_for_check_in`
+- `seconds_until_closes_at`
+- `seconds_until_next_shows_at`
 - `timeout_seconds`
 - `updated_at`

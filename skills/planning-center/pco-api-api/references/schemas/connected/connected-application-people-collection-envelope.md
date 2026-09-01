@@ -21,6 +21,7 @@
 | `count` | integer | No |  |
 | `prev` | object | No |  |
 | `next` | object | No |  |
+| `can_query_by` | enum: site_administrator | No |  |
 
 #### `meta.parent`
 

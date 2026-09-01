@@ -24,8 +24,8 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: created_at,updated_at,starts_at,ends_at | No |  |
-| `can_query_by` | enum: created_at,ends_at,event_name,kind,starts_at,tag_ids,updated_at | No |  |
-| `can_filter` | enum: future,not_pending_event_requests,all,approver,approver_subscriber,manager,manager_approver,manager_approver_subscriber,manager_subscriber,owner,owner_approver,owner_approver_subscriber,owner_manager_approver,owner_manager_subscriber,owner_manager_approver_subscriber,owner_manager,owner_subscriber,subscriber,approved,pending,rejected,unresolved,lost,shared,lost_due_to_blockout,approved_pending,approved_rejected,pending_rejected,approved_pending_rejected | No |  |
+| `can_query_by` | enum: calendar_ids,created_at,ends_at,event_name,kind,starts_at,tag_ids,updated_at | No |  |
+| `can_filter` | enum: future,not_pending_event_requests,all,approver,approver_subscriber,manager,manager_approver,manager_approver_subscriber,manager_subscriber,owner,owner_approver,owner_approver_subscriber,owner_manager_approver,owner_manager_subscriber,owner_manager_approver_subscriber,owner_manager,owner_subscriber,subscriber,approved,pending,rejected,unresolved,lost,shared,lost_due_to_blockout,approved_pending,approved_rejected,pending_rejected,approved_pending_rejected,conflict,approved_conflict,pending_conflict,rejected_conflict,approved_pending_conflict,approved_rejected_conflict,pending_rejected_conflict,approved_pending_rejected_conflict,event_request_approved,event_request_pending,event_request_rejected,event_request_approved_pending,event_request_approved_rejected,event_request_pending_rejected,event_request_approved_pending_rejected | No |  |
 
 #### `meta.parent`
 

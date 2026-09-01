@@ -77,6 +77,7 @@
 | `designations` | string | No |  |
 | `issue_refund` | string | No |  |
 | `labels` | string | No |  |
+| `mark_failed` | string | No |  |
 | `note` | string | No |  |
 | `refund` | string | No |  |
 

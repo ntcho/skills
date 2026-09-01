@@ -17,6 +17,7 @@ A person added to Planning Center Services.
 | `assigned_to_rehearsal_team` | boolean | No |  |
 | `birthdate` | string (date) | No |  |
 | `can_edit_all_people` | boolean | No |  |
+| `can_search` | boolean | No |  |
 | `can_view_all_people` | boolean | No |  |
 | `created_at` | string (date-time) | No |  |
 | `facebook_id` | string | No | DEPRECATED: this attribute will be removed in the next release and will return the string "DEPRECATED" in this version |

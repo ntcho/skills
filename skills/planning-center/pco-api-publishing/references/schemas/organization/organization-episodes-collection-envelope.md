@@ -24,7 +24,7 @@
 | `prev` | object | No |  |
 | `next` | object | No |  |
 | `can_order_by` | enum: title,stream_type,published_live_at,published_to_library_at | No |  |
-| `can_query_by` | enum: search,series_id,services_plan_remote_identifier,services_service_type_remote_identifier | No |  |
+| `can_query_by` | enum: search,series_id,speaker_id,speaker_type,services_plan_remote_identifier,services_service_type_remote_identifier | No |  |
 | `can_filter` | enum: published_live,not_published_live,connected_to_services,not_connected_to_services,published_on_church_center | No |  |
 
 #### `meta.parent`

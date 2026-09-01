@@ -14,6 +14,7 @@ Data for `RecurringDonation`s is read-only; they can not be created or edited th
 | `amount_cents` | integer | No | The number of cents scheduled to be donated. |
 | `amount_currency` | string | No | The currency of `amount_cents`. |
 | `created_at` | string (date-time) | No | The date and time at which a recurring donation was created. Example: `2000-01-01T12:00:00Z` |
+| `fund_id` | string | No | Filter to recurring donations designated to the given fund. |
 | `last_donation_received_at` | string (date-time) | No | The date and time that the last donation was made for a recurring donation. Example: `2000-01-01T12:00:00Z` |
 | `next_occurrence` | string (date-time) | No | The date that the next donation will be made for a recurring donation. Example: `2000-01-01T12:00:00Z` |
 | `release_hold_at` | string (date-time) | No | The date when the hold on a recurring donation with a status of `temporary_hold` will be released. |

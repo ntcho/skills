@@ -1,6 +1,6 @@
 # Attachment
 
-An uploaded file attached to an event.
+A file or external link attached to an event.
 
 
 ## Operations

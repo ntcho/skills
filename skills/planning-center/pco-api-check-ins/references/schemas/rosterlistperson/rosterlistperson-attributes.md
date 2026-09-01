@@ -11,6 +11,7 @@
 | `first_name` | string | No |  |
 | `gender` | string | No |  |
 | `grade` | string | No |  |
+| `ignore_filters` | boolean | No |  |
 | `last_name` | string | No |  |
 | `medical_notes` | string | No |  |
 | `name` | string | No |  |
