@@ -22,7 +22,7 @@ Get information about all lists in the account.
 | `sort_field` | query | enum: date_created | No | Returns files sorted by the specified field. |
 | `sort_dir` | query | enum: ASC, DESC | No | Determines the order direction for sorted results. |
 | `has_ecommerce_store` | query | boolean | No | Restrict results to lists that contain an active, connected, undeleted ecommerce store. |
-| `include_total_contacts` | query | boolean | No | Return the total_contacts field in the stats response, which contains an approximate count of all contacts in any state. |
+| `include_total_contacts` | query | boolean | No | Deprecated. Return the total_contacts field in the stats response, which contains an approximate count of subscribed, unsubscribed, and transactional contacts. For a complete audience contact count, use the /audiences endpoint instead. |
 
 ## Responses
 

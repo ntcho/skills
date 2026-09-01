@@ -69,4 +69,8 @@
 | POST | `/lists/{list_id}/signup-forms` | Customize signup form | [View](../operations/postListsIdSignupForms.md) |
 | GET | `/lists/{list_id}/locations` | List locations | [View](../operations/getListsIdLocations.md) |
 | GET | `/lists/{list_id}/surveys` | Get information about all surveys for a list | [View](../operations/getListsIdSurveys.md) |
+| POST | `/lists/{list_id}/surveys` | Create survey | [View](../operations/postListsIdSurveys.md) |
 | GET | `/lists/{list_id}/surveys/{survey_id}` | Get survey | [View](../operations/getListsIdSurveysId.md) |
+| DELETE | `/lists/{list_id}/surveys/{survey_id}` | Delete survey | [View](../operations/deleteListsIdSurveysId.md) |
+| PATCH | `/lists/{list_id}/surveys/{survey_id}` | Update survey | [View](../operations/patchListsIdSurveysId.md) |
+| POST | `/lists/{list_id}/surveys/{survey_id}/actions/replicate` | Replicate survey | [View](../operations/postListsIdSurveysIdActionsReplicate.md) |

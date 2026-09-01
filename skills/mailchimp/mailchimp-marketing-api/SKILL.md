@@ -17,7 +17,7 @@ This API documentation is split into multiple files for on-demand loading.
 ```
 references/
 ├── resources/      # 30 resource index files
-├── operations/     # 298 operation detail files
+├── operations/     # 302 operation detail files
 └── schemas/        # 0 schema groups, 0 schema files
 ```
 
@@ -37,7 +37,7 @@ Supported methods: **basicAuth**. See `references/authentication.md` for details
 
 ## Resources
 
-- **lists** → `references/resources/lists.md` (66 ops)
+- **lists** → `references/resources/lists.md` (70 ops)
 - **ecommerce** → `references/resources/ecommerce.md` (60 ops)
 - **campaigns** → `references/resources/campaigns.md` (22 ops)
 - **reports** → `references/resources/reports.md` (22 ops)

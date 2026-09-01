@@ -13,7 +13,7 @@ Get information about a specific list in your Mailchimp account. Results include
 | `fields` | query | string[] | No | A comma-separated list of fields to return. Reference parameters of sub-objects with dot notation. |
 | `exclude_fields` | query | string[] | No | A comma-separated list of fields to exclude. Reference parameters of sub-objects with dot notation. |
 | `list_id` | path | string | Yes | The unique ID for the list. |
-| `include_total_contacts` | query | boolean | No | Return the total_contacts field in the stats response, which contains an approximate count of all contacts in any state. |
+| `include_total_contacts` | query | boolean | No | Deprecated. Return the total_contacts field in the stats response, which contains an approximate count of subscribed, unsubscribed, and transactional contacts. For a complete audience contact count, use the /audiences endpoint instead. |
 
 ## Responses
 
@@ -76,7 +76,7 @@ Get information about a specific list in your Mailchimp account. Results include
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `member_count` | integer | No | The number of active members in the list. |
-| `total_contacts` | integer | No | The number of contacts in the list, including subscribed, unsubscribed, pending, cleaned, deleted, transactional, and those that need to be reconfirmed. Requires include_total_contacts query parameter to be included. |
+| `total_contacts` | integer | No | An approximate count of subscribed, unsubscribed, and transactional contacts in the list. Does not include cleaned, archived, pending, or contacts that need to be reconfirmed. Requires the (deprecated) include_total_contacts query parameter to be included; for a complete audience contact count, use the /audiences endpoint instead. |
 | `unsubscribe_count` | integer | No | The number of members who have unsubscribed from the list. |
 | `cleaned_count` | integer | No | The number of members cleaned from the list. |
 | `member_count_since_send` | integer | No | The number of active members in the list since the last campaign was sent. |
